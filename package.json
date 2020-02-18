@@ -1,0 +1,15 @@
+{
+  "name": "test_blog",
+  "version": "1.0.0",
+  "description": "test blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx eleventy --serve"
+  },
+  "author": "unisys12",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0"
+  }
+}
