@@ -1,7 +1,7 @@
 {
-  "name": "test_blog",
+  "name": "ftpta",
   "version": "1.0.0",
-  "description": "test blog",
+  "description": "site and future blog for FTPTA",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
