@@ -13,7 +13,10 @@
 </head>
 <body>
     {% include "header.njk" %}
-    {{ content | safe }}
+    <main>        
+        {{ content | safe }}
+        {% block postContent %}{% endblock %}
+    </main>
     {% include "footer.njk" %}
 </body>
 </html>
