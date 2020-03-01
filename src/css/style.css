@@ -10,6 +10,7 @@ html {
 body {
   margin: 0 2em;
   padding: 0;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.9);
   color: #eee;
   font-family: "Raleway", sans-serif;
@@ -93,6 +94,16 @@ main {
 .card:hover {
   box-shadow: 6px 6px 6px -3px rgba(0, 0, 0, 0.5),
     -6px -6px 9px -3px rgba(255, 255, 255, 0.1);
+}
+
+.card > a {
+  color: #ddd;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.card > a:hover {
+  color: #fff;
 }
 
 .card-content {

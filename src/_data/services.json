@@ -1,0 +1,62 @@
+[
+    {
+        "header": "Evaluation",
+        "details": "Evaluate the dog and owners to customize a training plan based on the needs of the dog and owner",
+        "url": "/services/domestic-evaluation",
+        "price": "$20"
+    },
+    {
+        "header": "Volunteer Therapy Visit",
+        "details": "Would your organization like to have Pretzel and myself come visit your facility for a therapy vist? If so, please make an appointment.",
+        "url": "/services/therapy-visit",
+        "price": "FREE"
+    },
+    {
+        "header": "Backgrounding Puppies",
+        "details": "This service contains specfic training needed to give your new hunting partner a solid base that can be built on for years to come.",
+        "url": "/services/backgrounding",
+        "price": "$250 a week"
+    },
+    {
+        "header": "Board Training",
+        "details": "This service includes hourse breaking, create training, basic obedience training and leash training.",
+        "url": "/services/board-training",
+        "price": "$150 a week"
+    },
+    {
+        "header": "Owner Asssited Training",
+        "details": "Training with the owner at your home. 1 hour weekly sessions, with homework.",
+        "url": "/services/assisted-training",
+        "price": "Price Varies"
+    },
+    {
+        "header": "Therapy Dog Evaluation",
+        "details": "Evaluate dogs tempurment, domaninece and submissive traits, as well as sensitivity levels.",
+        "url": "/services/therapy-evaluation",
+        "price": "$30"
+    },
+    {
+        "header": "Therapy Dog Training",
+        "details": "Training based on Star Puppy, Canine Good Citizen, CGC Advanced, Urban CGC and Public Access.",
+        "url": "/services/therapy-training",
+        "price": "Price Varies"
+    },
+    {
+        "header": "Therapy Dog Handler Training",
+        "details": "How to communicate effectivly with your therapy dog and clients during therapy visits.",
+        "url": "/services/handler-training",
+        "price": "Price Varies"
+    },
+    {
+        "header": "Puppy Daycare",
+        "details": "Need a safe, friendly place for your puppy while your at work? We can help.",
+        "url": "services/daycare",
+        "price": "$15 a day"
+    },
+    {
+        "header": "Boarding",
+        "details": "For just a night or a few days.",
+        "url": "/services/boarding",
+        "price": "$30 a day"
+    }
+]
