@@ -8,8 +8,6 @@ html {
 }
 
 body {
-  display: grid;
-  grid-template-rows: 1fr 2fr 1fr;
   margin: 0 2em;
   padding: 0;
   background-color: rgba(0, 0, 0, 0.9);
@@ -19,12 +17,8 @@ body {
 
 header {
   display: grid;
-  grid-template-columns: 1fr 4fr;
-}
-
-.logo {
-  display: grid;
-  place-self: center;
+  grid-template-columns: repeat(auto-fit, minmax(157px, 1fr));
+  place-items: center;
 }
 
 .logo img {
@@ -34,6 +28,7 @@ header {
 .site_nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2vw;
   place-items: center;
 }
 
@@ -53,7 +48,7 @@ header {
 main {
   display: grid;
   grid-template-rows: 1fr 4fr;
-  gap: 0;
+  grid-gap: 0;
 }
 
 .content_header {
@@ -65,7 +60,6 @@ main {
 .content_main {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  place-items: center start;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -82,7 +76,7 @@ main {
 
 .services {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 3em;
 }
 
@@ -107,5 +101,20 @@ main {
 
 footer {
   display: grid;
-  place-items: end start;
+}
+
+@media (max-width: 375px) {
+  .content_main {
+    max-width: 175px;
+    grid-template-columns: 1fr;
+  }
+
+  .site_nav > a {
+    font-size: 1.5em;
+  }
+
+  .about_img > img {
+    max-width: 235px;
+    margin: 0 auto;
+  }
 }
