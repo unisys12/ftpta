@@ -1,0 +1,15 @@
+---
+layout: "services.njk"
+title: "Therapy Evaluation"
+description: "Therapy Dog Evaluation"
+price: "$30"
+tags: "services"
+---
+
+# {{ description }}
+
+Evaluate dogs temperament, dominance and submissive traits, as well as sensitivity levels.
+
+## Price
+
+{{ price }}
