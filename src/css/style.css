@@ -18,8 +18,8 @@ body {
 
 header {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(157px, 1fr));
-  place-items: center;
+  grid-template-columns: 1fr 2fr;
+  place-items: center start;
 }
 
 .logo img {
@@ -46,10 +46,22 @@ header {
   text-decoration: underline rgba(255, 255, 255, 0.9);
 }
 
+.index_img_block {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  place-items: center;
+}
+
+.index_img_block > figure > img {
+  max-width: 500px;
+  height: auto;
+}
+
 .content_header {
   display: grid;
   grid-template-columns: 1fr;
   place-items: center;
+  font-size: 2.75vw;
 }
 
 .content_main {
@@ -58,7 +70,11 @@ header {
   font-family: "Montserrat", sans-serif;
 }
 
-.about_img {
+.stuff > h2 {
+  font-size: 4vw;
+}
+
+.about_img > img {
   box-shadow: -6px -6px 9px rgba(250, 250, 250, 0.1),
     12px 12px 3px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease-in-out;
@@ -109,17 +125,17 @@ footer {
 }
 
 @media (max-width: 375px) {
-  .content_main {
-    max-width: 175px;
+  header {
+    display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    place-items: center;
   }
 
-  .site_nav > a {
-    font-size: 1.5em;
-  }
-
-  .about_img > img {
-    max-width: 235px;
-    margin: 0 auto;
+  .site_nav {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 1em;
   }
 }
