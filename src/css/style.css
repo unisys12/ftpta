@@ -59,9 +59,9 @@ header {
 
 .content_header {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template: 1fr / 1fr;
   place-items: center;
-  font-size: 2.75vw;
+  font-size: 1.5em;
 }
 
 .content_main {
@@ -70,8 +70,14 @@ header {
   font-family: "Montserrat", sans-serif;
 }
 
+p {
+  display: block;
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
 .pretzel > h2 {
-  font-size: 4vw;
+  font-size: 1.5em;
 }
 
 .about_img > img {
