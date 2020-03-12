@@ -91,6 +91,11 @@ p {
   grid-gap: 3em;
 }
 
+figure > sub > a,
+figcaption > a {
+  color: #eee;
+}
+
 .card {
   display: grid;
   border-radius: 0.25em;
