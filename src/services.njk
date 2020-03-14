@@ -9,16 +9,14 @@ tag: "services"
 </header>
 <div class="services">
 {% for service in services %}
-    <section class="card">
-        <a href="{{ service.url }}">
-            <div class="card-header">
-                <h3>{{ service.header }}</h3>
-            </div>
-            <article class="card-content">
-                <p>{{ service.details }}</p>
-                <h4>{{ service.price }}</h4>
-            </article>
-        </a>
+    <section class="card">        
+        <div class="card-header">
+            <a href="{{ service.url }}"><h3>{{ service.header }}</h3></a>
+        </div>
+        <article class="card-content">
+            <p>{{ service.details }}</p>
+            <h4>{{ service.price }}</h4>
+        </article>        
     </section>
 {% endfor %}
 </div>
