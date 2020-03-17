@@ -1,0 +1,29 @@
+---
+layout: "layout.njk"
+title: Portfolio
+page_title: Kimberlys Portfolio
+tag: "portfolio"
+---
+<header class="content_header">
+    <h2>{{ page_title }}</h2>
+</header>
+<div class="portfolio-page">
+{% for dog in dogs %}
+    <section class="portfolio">        
+        <div class="portfolio-header">
+            <h2>{{ dog.name }}</h2>
+            <sub>{{ dog.breed }}</sub>
+        </div>
+        <article class="portfolio-content">
+            <p>{{ dog.dialog }}</p>
+            <div class="images-wrapper">
+                {% for image in dog.images %}
+                <figure>
+                    <img src="{{ image.url }}" alt="{{ image.alt }}" loading="lazy" />
+                </figure>
+                {% endfor %}
+            </div>
+        </article>        
+    </section>
+{% endfor %}
+</div>

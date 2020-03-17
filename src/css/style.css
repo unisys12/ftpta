@@ -126,6 +126,16 @@ figcaption > a {
   text-align: center;
 }
 
+.portfolio-page {
+  display: grid;
+  grid-auto-flow: row;
+  row-gap: 3em;
+}
+
+.portfolio {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
 footer {
   display: grid;
 }
