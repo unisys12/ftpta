@@ -126,6 +126,10 @@ figcaption > a {
   text-align: center;
 }
 
+.long_text > p {
+  text-indent: 3em;
+}
+
 .portfolio-page {
   display: grid;
   grid-auto-flow: row;
