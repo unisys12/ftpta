@@ -126,8 +126,17 @@ figcaption > a {
   text-align: center;
 }
 
+.long_text {
+  display: grid;
+}
+
 .long_text > p {
   text-indent: 3em;
+  text-align: justify;
+}
+
+.long_text > img {
+  margin: 0 auto;
 }
 
 .portfolio-page {
