@@ -9,6 +9,7 @@ tag: "portfolio"
 </header>
 <div class="portfolio-page">
 {% for dog in dogs %}
+    {% if dog.portfolio == "true" %}
     <section class="portfolio">        
         <div class="portfolio-header">
             <h2>{{ dog.name }}</h2>
@@ -25,5 +26,6 @@ tag: "portfolio"
             </div>
         </article>        
     </section>
+    {% endif %}
 {% endfor %}
 </div>
