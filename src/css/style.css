@@ -37,13 +37,15 @@ header {
   text-decoration: none;
   font-size: 2em;
   color: #ccc;
-  transition: text-decoration 0.5s ease-in-out;
+  border-bottom: 0;
+  transition: all 0.3s ease-out;
 }
 
 .site_nav a:hover,
 .site_nav a:focus,
 .site_nav a:active {
-  text-decoration: underline rgba(255, 255, 255, 0.9);
+  margin-top: 2px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.9);
 }
 
 .index_img_block {
