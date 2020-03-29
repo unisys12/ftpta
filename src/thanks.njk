@@ -1,0 +1,29 @@
+---
+layout: "layout.njk"
+title: Thanks
+page_title: Special Thanks
+tag: "providers"
+---
+<header class="content_header">
+    <h2>{{ page_title }}</h2>
+</header>
+<div class="portfolio-page">
+{% for provider in providers %}
+    
+    <section class="portfolio">        
+        <div class="portfolio-header">
+            <a href="{{ provider.url }}"><h2>{{ provider.name }}</h2></a>
+        </div>
+        <article class="portfolio-content">
+            <p>{{ provider.description }}</p>
+                <div class="images-wrapper">
+                    {% for image in provider.images %}
+                    <figure>
+                        <img src="{{ image.url }}" alt="{{ image.alt }}" loading="lazy" />
+                    </figure>
+                    {% endfor %}
+                </div>
+        </article>        
+    </section>
+{% endfor %}
+</div>
