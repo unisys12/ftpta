@@ -12,7 +12,11 @@ tag: "providers"
     
     <section class="portfolio">        
         <div class="portfolio-header">
+        {% if provider.url != "" %}
             <a href="{{ provider.url }}"><h2>{{ provider.name }}</h2></a>
+        {% else %}
+            <h2>{{ provider.name }}</h2>
+        {% endif %}
         </div>
         <article class="portfolio-content">
             <p>{{ provider.description }}</p>
