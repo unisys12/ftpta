@@ -38,19 +38,16 @@
     {
         "header": "Therapy Dog Training",
         "details": "Training based on Star Puppy, Canine Good Citizen, CGC Advanced, Urban CGC and Public Access.",
-        "url": "/services/therapy-training",
         "price": "Price Varies"
     },
     {
         "header": "Therapy Dog Handler Training",
         "details": "How to communicate effectivly with your therapy dog and clients during therapy visits.",
-        "url": "/services/handler-training",
         "price": "Price Varies"
     },
     {
         "header": "Puppy Daycare",
         "details": "Need a safe, friendly place for your puppy while your at work? We can help.",
-        "url": "services/daycare",
         "price": "$15 a day"
     },
     {
