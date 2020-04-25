@@ -163,6 +163,15 @@ figcaption > a {
 
 footer {
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+footer h5 a {
+  color:rgba(240,240,0,0.9);
+}
+
+.insure {
+  justify-self: end;
 }
 
 @media only screen and (min-device-width: 360px) and (max-device-height: 740px) and (orientation: portrait) {
