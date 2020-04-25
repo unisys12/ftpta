@@ -218,11 +218,34 @@ footer h5 a {
     display: grid;
     grid-template-columns: 1fr;
     place-content: center;
-    font-family: "Montserrat", sans-serif;
   }
 
   .content_main > article {
     margin: 2em;
+    max-width: 200px;
+  }
+
+  .about_img {
+    justify-self: start;
+    max-width: 200px;
+  }
+
+  .about_img > img{
+    max-width: 200px;
+    height: auto;
+  }
+
+  .about_img > figcaption {
+    font-size: small;
+  }
+
+  .about_img > sub {
+    font-size: x-small;
+  }
+
+  .img-display {
+    grid-template-columns: 1fr;
+    place-content: center;
   }
 }
 
@@ -308,6 +331,40 @@ footer h5 a {
   footer {
     place-items: center;
   }
+
+  .content_main {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-content: center;
+  }
+
+  .content_main > article {
+    margin: 2em;
+    max-width: 200px;
+  }
+
+  .about_img {
+    justify-self: start;
+    max-width: 200px;
+  }
+
+  .about_img > img{
+    max-width: 200px;
+    height: auto;
+  }
+
+  .about_img > figcaption {
+    font-size: small;
+  }
+
+  .about_img > sub {
+    font-size: x-small;
+  }
+
+  .img-display {
+    grid-template-columns: 1fr;
+    place-content: center;
+  }
 }
 
 @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: portrait) {
@@ -351,6 +408,40 @@ footer h5 a {
 
   footer {
     place-items: center;
+  }
+
+  .content_main {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-content: center;
+  }
+
+  .content_main > article {
+    margin: 2em;
+    max-width: 200px;
+  }
+
+  .about_img {
+    justify-self: start;
+    max-width: 200px;
+  }
+
+  .about_img > img{
+    max-width: 200px;
+    height: auto;
+  }
+
+  .about_img > figcaption {
+    font-size: small;
+  }
+
+  .about_img > sub {
+    font-size: x-small;
+  }
+
+  .img-display {
+    grid-template-columns: 1fr;
+    place-content: center;
   }
 }
 
@@ -398,5 +489,39 @@ footer h5 a {
   footer {
     grid-template-columns: 1fr;
     place-items: center;
+  }
+
+  .content_main {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-content: center;
+  }
+
+  .content_main > article {
+    margin: 2em;
+    max-width: 200px;
+  }
+
+  .about_img {
+    justify-self: start;
+    max-width: 200px;
+  }
+
+  .about_img > img{
+    max-width: 200px;
+    height: auto;
+  }
+
+  .about_img > figcaption {
+    font-size: small;
+  }
+
+  .about_img > sub {
+    font-size: x-small;
+  }
+
+  .img-display {
+    grid-template-columns: 1fr;
+    place-content: center;
   }
 }
