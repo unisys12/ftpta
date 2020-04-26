@@ -3,7 +3,7 @@
         "header": "Evaluation",
         "details": "Evaluate the dog and owners to customize a training plan based on the needs of the dog and owner",
         "url": "/services/domestic-evaluation",
-        "price": "$20"
+        "price": "$20 plus tax"
     },
     {
         "header": "Volunteer Therapy Visit",
@@ -15,13 +15,13 @@
         "header": "Backgrounding Puppies",
         "details": "This service contains specfic training needed to give your new hunting partner a solid base that can be built on for years to come.",
         "url": "/services/backgrounding",
-        "price": "$250 a week"
+        "price": "$250 a week plus tax"
     },
     {
         "header": "Board Training",
         "details": "This service includes house breaking, create training, basic obedience training and leash training.",
         "url": "/services/board-training",
-        "price": "$150 a week"
+        "price": "$150 a week plus tax"
     },
     {
         "header": "Owner Asssited Training",
@@ -33,7 +33,7 @@
         "header": "Therapy Dog Evaluation",
         "details": "Evaluate dogs tempurment, domaninece and submissive traits, as well as sensitivity levels.",
         "url": "/services/therapy-evaluation",
-        "price": "$30"
+        "price": "$30 plus tax"
     },
     {
         "header": "Therapy Dog Training",
@@ -48,11 +48,11 @@
     {
         "header": "Puppy Daycare",
         "details": "Need a safe, friendly place for your puppy while your at work? We can help.",
-        "price": "$15 a day"
+        "price": "$15 a day plus tax"
     },
     {
         "header": "Boarding",
         "details": "For just a night or a few days.",
-        "price": "$30 a day"
+        "price": "$30 a day plus tax"
     }
 ]
