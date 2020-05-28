@@ -106,8 +106,9 @@ p {
 }
 
 figure > sub > a,
-figcaption > a {
-  color: #eee;
+figcaption > a,
+main > p > a {
+  color: #ccc;
 }
 
 .card {

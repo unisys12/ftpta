@@ -3,7 +3,7 @@
         "header": "Evaluation",
         "details": "Evaluate the dog and owners to customize a training plan based on the needs of the dog and owner",
         "url": "/services/domestic-evaluation",
-        "price": "$20 plus tax"
+        "price": "$30 plus tax"
     },
     {
         "header": "Volunteer Therapy Visit",
@@ -21,13 +21,13 @@
         "header": "Board Training",
         "details": "This service includes, but not limited to AKC STAR Puppy and Pre-CGC _(Canine Good Citizen)_",
         "url": "/services/board-training",
-        "price": "$175 a week plus tax"
+        "price": "$200 a week plus tax"
     },
     {
         "header": "Owner Asssited Training",
         "details": "Training with the owner at your home. 1 hour weekly sessions, with homework.",
         "url": "/services/assisted-training",
-        "price": "Price Varies"
+        "price": "Starting at $45 an hour plus tax"
     },
     {
         "header": "Therapy Dog Evaluation",
