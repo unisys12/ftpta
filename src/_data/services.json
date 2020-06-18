@@ -12,12 +12,6 @@
         "price": "FREE"
     },
     {
-        "header": "Backgrounding Puppies",
-        "details": "This service contains specfic training needed to give your new hunting partner a solid base that can be built on for years to come.",
-        "url": "/services/backgrounding",
-        "price": "$250 a week plus tax"
-    },
-    {
         "header": "Board Training",
         "details": "This service includes, but not limited to AKC STAR Puppy and Pre-CGC _(Canine Good Citizen)_",
         "url": "/services/board-training",
