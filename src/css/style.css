@@ -180,11 +180,17 @@ footer {
 }
 
 footer h5 a {
-  color:rgba(240,240,0,0.9);
+  color: rgba(240, 240, 0, 0.9);
 }
 
 .insure {
   justify-self: end;
+}
+
+.akc_logos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-items: center;
 }
 
 @media only screen and (min-device-width: 360px) and (max-device-height: 740px) and (orientation: portrait) {
@@ -231,7 +237,7 @@ footer h5 a {
     max-width: 200px;
   }
 
-  .about_img > img{
+  .about_img > img {
     max-width: 200px;
     height: auto;
   }
@@ -349,7 +355,7 @@ footer h5 a {
     max-width: 200px;
   }
 
-  .about_img > img{
+  .about_img > img {
     max-width: 200px;
     height: auto;
   }
@@ -427,7 +433,7 @@ footer h5 a {
     max-width: 200px;
   }
 
-  .about_img > img{
+  .about_img > img {
     max-width: 200px;
     height: auto;
   }
@@ -508,7 +514,7 @@ footer h5 a {
     max-width: 200px;
   }
 
-  .about_img > img{
+  .about_img > img {
     max-width: 200px;
     height: auto;
   }
