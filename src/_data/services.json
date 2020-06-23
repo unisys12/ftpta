@@ -38,15 +38,5 @@
         "header": "Therapy Dog Handler Training",
         "details": "How to communicate effectivly with your therapy dog and clients during therapy visits.",
         "price": "Price Varies"
-    },
-    {
-        "header": "Puppy Daycare",
-        "details": "Need a safe, friendly place for your puppy while your at work? We can help.",
-        "price": "$15 a day plus tax"
-    },
-    {
-        "header": "Boarding",
-        "details": "For just a night or a few days.",
-        "price": "$30 a day plus tax"
     }
 ]
