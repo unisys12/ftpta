@@ -19,7 +19,7 @@ body {
 header {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  place-items: center start;
+  place-content: center;
 }
 
 .logo img {
