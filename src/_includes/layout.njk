@@ -11,7 +11,7 @@
 </head>
 <body>
     {% include "header.njk" %}
-    <main title="Main Content Area">
+    <main>
         {% include "components/content_header.html" %}       
         {{ content | safe }}
         {% block postContent %}{% endblock %}

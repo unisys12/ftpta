@@ -7,15 +7,15 @@ tag: "services"
 
 <div class="services">
 {% for service in services %}
-    <section class="card" title="{{ service.header }}">        
-        <div class="card-header" title="Card Header">
+    <section class="card"">        
+        <div class="card-header">
         {% if service.url %}
             <a href="{{ service.url }}"><h3>{{ service.header }}</h3></a>
         {% else %}
             <h3>{{ service.header }}</h3>
         {% endif %}
         </div>
-        <article class="card-content" title="Service Info">
+        <article class="card-content">
             <p>{{ service.details }}</p>
             <h4>{{ service.price }}</h4>
         </article>        
