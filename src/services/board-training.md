@@ -8,7 +8,7 @@ tags: "services"
 
 # {{ description }}
 
-This service is for puppies between the age of 8 weeks and 6 months. It follows all [AKC STAR Puppy](https://www.akc.org/products-services/training-programs/canine-good-citizen/akc-star-puppy/) and [CGC - _(Canine Good Citizen)_](https://www.akc.org/products-services/training-programs/canine-good-citizen/take-the-test/) guidelines. Our Domestic Board Training Program also covers House and Crate Training. At the end of the 4 week program, you and your puppy will/can be evaluated again _(free of charge)_ so he or she can receive their official AKC Star Puppy and/or AKC Canine Good Citizen awards.
+This service is for puppies under the age of 6 months. It follows all [AKC STAR Puppy](https://www.akc.org/products-services/training-programs/canine-good-citizen/akc-star-puppy/) and [CGC - _(Canine Good Citizen)_](https://www.akc.org/products-services/training-programs/canine-good-citizen/take-the-test/) guidelines. Our Domestic Board Training Program also covers House and Crate Training. At the end of the 4 week program, you and your puppy will/can be evaluated again _(free of charge)_ so he or she can receive their official AKC Star Puppy and/or AKC Canine Good Citizen awards.
 
 AKC Star Puppy and CGC are normally two or more separate six week courses, performed as Owner Assisted Training. Since your puppy will be living as a member of our family, this allows us to take better advantage of their time here and use each and every moment as a teaching experience.
 
