@@ -176,7 +176,23 @@ main > p > a {
 
 footer {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  place-items: end center;
+}
+
+address > ul > li {
+  list-style-type: none;
+}
+
+address > ul > li > a {
+  color: #ddd;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+address > ul > li > a:hover {
+  color: #fff;
+  text-decoration: underline;
 }
 
 footer h5 a {
@@ -191,6 +207,7 @@ footer h5 a {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   justify-items: center;
+  margin: 4rem 0;
 }
 
 @media only screen and (min-device-width: 360px) and (max-device-height: 740px) and (orientation: portrait) {
@@ -336,6 +353,8 @@ footer h5 a {
   }
 
   footer {
+    grid-template-columns: none;
+    grid-template-rows: repeat(3, 1fr);
     place-items: center;
   }
 
