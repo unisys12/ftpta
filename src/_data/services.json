@@ -38,5 +38,11 @@
         "header": "Therapy Dog Handler Training",
         "details": "How to communicate effectivly with your therapy dog and clients during therapy visits.",
         "price": "Price Varies"
+    },
+    {
+        "header": "AKC Group Training Classes",
+        "details": "AKC Group Training Classes",
+        "url": "/services/group-training",
+        "price": "$60 per class (6 classes)"
     }
 ]
