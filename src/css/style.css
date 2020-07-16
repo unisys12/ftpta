@@ -551,3 +551,13 @@ footer h5 a {
     place-content: center;
   }
 }
+
+.group-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.form-group input {
+  width: 100%;
+}
