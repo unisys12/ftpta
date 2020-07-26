@@ -3,7 +3,7 @@
         "header": "Evaluation",
         "details": "Evaluate the dog and owners to customize a training plan based on the needs of the dog and owner",
         "url": "/services/domestic-evaluation",
-        "price": "$30 plus tax"
+        "price": "$45 plus tax"
     },
     {
         "header": "Volunteer Therapy Visit",
@@ -21,13 +21,13 @@
         "header": "Owner Asssited Training",
         "details": "Training with the owner at your home. 1 hour weekly sessions, with homework.",
         "url": "/services/assisted-training",
-        "price": "Starting at $45 an hour plus tax"
+        "price": "$45 an hour plus tax"
     },
     {
         "header": "Therapy Dog Evaluation",
         "details": "Evaluate dogs tempurment, domaninece and submissive traits, as well as sensitivity levels.",
         "url": "/services/therapy-evaluation",
-        "price": "$30 plus tax"
+        "price": "$45 plus tax"
     },
     {
         "header": "Therapy Dog Training",
