@@ -15,13 +15,13 @@
         "header": "Board Training (under 6 months)",
         "details": "This service includes, but not limited to AKC STAR Puppy and Pre-CGC _(Canine Good Citizen)_",
         "url": "/services/board-training",
-        "price": "$200 a week plus tax"
+        "price": "$250 a week plus tax"
     },
     {
         "header": "Owner Asssited Training",
         "details": "Training with the owner at your home. 1 hour weekly sessions, with homework.",
         "url": "/services/assisted-training",
-        "price": "$45 an hour plus tax"
+        "price": "$60 an hour plus tax"
     },
     {
         "header": "Therapy Dog Evaluation",
@@ -32,12 +32,12 @@
     {
         "header": "Therapy Dog Training",
         "details": "Training based on Star Puppy, Canine Good Citizen, CGC Advanced, Urban CGC and Public Access.",
-        "price": "Price Varies"
+        "price": "$75hr plus tax"
     },
     {
         "header": "Therapy Dog Handler Training",
         "details": "How to communicate effectivly with your therapy dog and clients during therapy visits.",
-        "price": "Price Varies"
+        "price": "$75hr plus tax"
     },
     {
         "header": "AKC Group Training Classes",
