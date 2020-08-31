@@ -1,9 +1,9 @@
 ---
-layout: "services.njk"
-title: "Board Training"
-description: "Domestic Board Training"
-price: "$200 a week"
-tags: "services"
+layout: 'services.njk'
+title: 'Board Training'
+description: 'Domestic Board Training'
+price: '$250 a week'
+tags: 'services'
 ---
 
 # {{ description }}
