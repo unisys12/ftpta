@@ -13,7 +13,7 @@ body {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.9);
   color: #eee;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 header {
@@ -69,7 +69,7 @@ header {
 .content_main {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 p {
@@ -210,6 +210,29 @@ footer h5 a {
   margin: 4rem 0;
 }
 
+.group-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.group-form input[type='submit'] {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  font-weight: 600;
+  color: #555555;
+}
+
+.group-form input[type='submit']:hover {
+  color: #333333;
+}
+
 @media only screen and (min-device-width: 360px) and (max-device-height: 740px) and (orientation: portrait) {
   header {
     display: grid;
@@ -305,7 +328,7 @@ footer h5 a {
     display: grid;
     grid-template-columns: 1fr;
     place-content: center;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .content_main > article {
@@ -345,7 +368,7 @@ footer h5 a {
     display: grid;
     grid-template-columns: 1fr;
     place-content: center;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .content_main > article {
@@ -425,7 +448,7 @@ footer h5 a {
     display: grid;
     grid-template-columns: 1fr;
     place-content: center;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .content_main > article {
@@ -505,7 +528,7 @@ footer h5 a {
     display: grid;
     grid-template-columns: 1fr;
     place-content: center;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .content_main > article {
@@ -550,14 +573,4 @@ footer h5 a {
     grid-template-columns: 1fr;
     place-content: center;
   }
-}
-
-.group-form {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem;
-}
-
-.form-group input {
-  width: 100%;
 }
