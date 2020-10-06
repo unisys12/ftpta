@@ -1,6 +1,6 @@
 {
   "name": "ftpta",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "site and future blog for FTPTA",
   "main": "index.js",
   "scripts": {
