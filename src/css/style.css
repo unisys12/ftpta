@@ -116,14 +116,14 @@ main > p > a {
   border-radius: 0.25em;
   padding: 0.5em;
   box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5),
-    -6px -6px 9px rgba(255, 255, 255, 0.1);
+    -4px -4px 9px rgba(69, 77, 102, 0.2);
   transition: box-shadow 0.3s ease-in-out;
   place-items: center;
 }
 
 .card:hover {
   box-shadow: 6px 6px 6px -3px rgba(0, 0, 0, 0.5),
-    -6px -6px 9px -3px rgba(255, 255, 255, 0.1);
+    -6px -6px 9px -3px rgba(69, 77, 102, 0.1);
 }
 
 .card-header > a {
