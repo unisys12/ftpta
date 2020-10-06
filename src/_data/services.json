@@ -18,10 +18,9 @@
         "price": "$250 a week plus tax"
     },
     {
-        "header": "Owner Asssited Training",
-        "details": "Training with the owner at your home. 1 hour weekly sessions, with homework.",
-        "url": "/services/assisted-training",
-        "price": "$60 an hour plus tax"
+        "header": "Owner Assited Training",
+        "details": "Owner Assited Training is moving to Group Training",
+        "url": "/services/assisted-training"
     },
     {
         "header": "Therapy Dog Evaluation",
