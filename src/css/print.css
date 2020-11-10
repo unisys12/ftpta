@@ -1,0 +1,66 @@
+html {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #111111;
+}
+
+h1 {
+  font-size: 24pt;
+}
+
+h2 {
+  font-size: 20pt;
+}
+
+h3 {
+  font-size: 18pt;
+}
+
+h4 {
+  font-size: 16pt;
+}
+
+h5 {
+  font-size: 14pt;
+}
+
+h6 {
+  font-size: 12pt;
+}
+
+p {
+  color: #222222;
+}
+
+ul > li {
+  color: #333333;
+}
+
+body {
+  margin: 0 2rem;
+}
+
+header > figure.logo > a > img {
+  margin: 0 auto;
+}
+
+.logo {
+  filter: invert(100%) hue-rotate(180deg) brightness(120%) contrast(150%);
+}
+
+#potty {
+  break-before: page;
+}
