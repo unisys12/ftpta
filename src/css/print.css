@@ -18,35 +18,37 @@ h6 {
 }
 
 h1 {
-  font-size: 24pt;
+  font-size: 32pt;
 }
 
 h2 {
-  font-size: 20pt;
+  font-size: 30pt;
 }
 
 h3 {
-  font-size: 18pt;
+  font-size: 28pt;
 }
 
 h4 {
-  font-size: 16pt;
+  font-size: 26pt;
 }
 
 h5 {
-  font-size: 14pt;
+  font-size: 24pt;
 }
 
 h6 {
-  font-size: 12pt;
+  font-size: 22pt;
 }
 
 p {
   color: #222222;
+  font-size: 24pt;
 }
 
 ul > li {
   color: #333333;
+  font-size: 22pt;
 }
 
 body {
@@ -55,6 +57,7 @@ body {
 
 header > figure.logo > a > img {
   margin: 0 auto;
+  width: 20%;
 }
 
 .logo {
@@ -63,4 +66,8 @@ header > figure.logo > a > img {
 
 #potty {
   break-before: page;
+}
+
+section {
+  margin-bottom: 6em;
 }
