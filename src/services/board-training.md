@@ -2,7 +2,7 @@
 layout: 'services.njk'
 title: 'Board Training'
 description: 'Domestic Board Training'
-price: '$250 a week'
+price: '$350 a week'
 tags: 'services'
 ---
 

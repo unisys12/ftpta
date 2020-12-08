@@ -1,9 +1,9 @@
 ---
-layout: "services.njk"
-title: "Evaluation"
-description: "Domestic Evaluation"
-price: "$20"
-tags: "services"
+layout: 'services.njk'
+title: 'Evaluation'
+description: 'Domestic Evaluation'
+price: '$60'
+tags: 'services'
 ---
 
 # {{ description }}

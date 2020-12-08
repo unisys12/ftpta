@@ -1,9 +1,9 @@
 ---
-layout: "services.njk"
-title: "Therapy Evaluation"
-description: "Therapy Dog Evaluation"
-price: "$30"
-tags: "services"
+layout: 'services.njk'
+title: 'Therapy Evaluation'
+description: 'Therapy Dog Evaluation'
+price: '$60'
+tags: 'services'
 ---
 
 # {{ description }}

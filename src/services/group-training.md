@@ -1,9 +1,9 @@
 ---
-layout: "services.njk"
-title: "AKC Group Training"
-description: "AKC Group Training Classes"
-price: "$60 per class (6 classes)"
-tags: "services"
+layout: 'services.njk'
+title: 'AKC Group Training'
+description: 'AKC Group Training Classes'
+price: '$225 package of 6 classes'
+tags: 'services'
 ---
 
 # {{ description }}
