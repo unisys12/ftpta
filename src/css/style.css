@@ -233,6 +233,10 @@ footer h5 a {
   color: #333333;
 }
 
+.darker-text {
+  color: #ccc;
+}
+
 @media only screen and (min-device-width: 360px) and (max-device-height: 740px) and (orientation: portrait) {
   header {
     display: grid;
