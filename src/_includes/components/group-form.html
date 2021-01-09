@@ -4,8 +4,21 @@
     <input type="text" required name="owner_name" />
   </div>
   <div class="form-group">
+    <label for="owner_address">Owners Address:</label>
+    <input type="text" required name="owner_address" />
+  </div>
+  <div class="form-group">
     <label for="owner_email">Owners Email:</label>
     <input type="email" required name="owner_email" />
+  </div>
+  <div class="form-group">
+    <label for="owner_phone">Owners Phone:</label>
+    <input type="tel" 
+      required 
+      name="owner_phone"
+      pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+    />
+    <small>Format 662-555-5555</small>
   </div>
   <div class="form-group">
     <label for="canine_name">Canines Name:</label>
@@ -24,8 +37,31 @@
     </select>
   </div>
   <div class="form-group">
-    <label for="canine_age">Canines Age <i>in months</i>:</label>
-    <input type="number" required name="canine_age" />
+    <label for="canine_age">Canines Age:</label>
+    <span class="label_title">Months</span>
+    <select type="number" required name="canine_age_months" value="0">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+      <option value="11">11</option>
+    </select>
+    <span class="label_title">Years</span>
+    <select type="number" required name="canine_age_years" value="0">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5+</option>
+    </select>
   </div>
   <input type="submit" value="Submit" />
 </form>
