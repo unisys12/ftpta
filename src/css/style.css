@@ -78,12 +78,6 @@ header {
   grid-template-rows: 1fr auto;
 }
 
-.profiles {
-}
-
-.profile {
-}
-
 p {
   display: block;
   font-size: 20px;
