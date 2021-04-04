@@ -3,7 +3,7 @@
         "header": "Evaluation",
         "details": "Evaluate the dog and owners to customize a training plan based on the needs of the dog and owner",
         "url": "/services/domestic-evaluation",
-        "price": "$60 plus tax"
+        "price": "$60"
     },
     {
         "header": "Volunteer Therapy Visit",
@@ -15,7 +15,7 @@
         "header": "Board Training (under 6 months)",
         "details": "This service includes, but not limited to AKC STAR Puppy and Pre-CGC _(Canine Good Citizen)_",
         "url": "/services/board-training",
-        "price": "$350 a week plus tax"
+        "price": "$350 a week"
     },
     {
         "header": "Owner Assited Training",
@@ -26,17 +26,17 @@
         "header": "Therapy Dog Evaluation",
         "details": "Evaluate dogs tempurment, domaninece and submissive traits, as well as sensitivity levels.",
         "url": "/services/therapy-evaluation",
-        "price": "$60 plus tax"
+        "price": "$60"
     },
     {
         "header": "Therapy Dog Training",
         "details": "Training based on Star Puppy, Canine Good Citizen, CGC Advanced, Urban CGC and Public Access.",
-        "price": "$75hr plus tax"
+        "price": "$75hr"
     },
     {
         "header": "Therapy Dog Handler Training",
         "details": "How to communicate effectivly with your therapy dog and clients during therapy visits.",
-        "price": "$75hr plus tax"
+        "price": "$75hr"
     },
     {
         "header": "AKC Group Training Classes",
