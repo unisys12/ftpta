@@ -9,7 +9,7 @@ html {
 
 body {
   margin: 0 auto;
-  padding: 0;
+  padding: 0 2em;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.9);
   color: #eee;
@@ -40,15 +40,7 @@ header {
   font-size: 2em;
   color: #ccc;
   border-bottom: 0;
-  transition: all 0.3s ease-out;
   flex: 1 1 150px;
-}
-
-.site_nav a:hover,
-.site_nav a:focus,
-.site_nav a:active {
-  margin-top: 2px;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.9);
 }
 
 .index_img_block {
@@ -220,7 +212,8 @@ footer h5 a {
 
 .akc_logos figure {
   flex: 1 1 300px;
-  text-align: center;
+  /* text-align: center; */
+  justify-self: center;
 }
 
 .group-form {
