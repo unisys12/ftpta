@@ -1,35 +1,10 @@
 <div class="akc_logos">
+  {% for logo in akc_logos %}
   <figure>
-    <a
-      href="https://www.akc.org/products-services/training-programs/canine-good-citizen/akc-star-puppy/"
-    >
-      <img
-        src="https://res.cloudinary.com/ftpta-com/image/upload/f_auto,q_70,w_200/v1592436484/logos/AKC/StarPuppy_logo_xzp7pj.jpg"
-        alt="Link to AKC S.T.A.R. Puppy Info"
-      />
+    <a href={{ logo.info_url }}>
+      <img src={{ logo.img_url }} alt="{{ logo.img_alt_text }}" />
     </a>
-    <figcaption>AKC S.T.A.R. Puppy</figcaption>
+    <figcaption>{{ logo.name }}</figcaption>
   </figure>
-  <figure>
-    <a
-      href="https://www.akc.org/products-services/training-programs/canine-good-citizen/"
-    >
-      <img
-        src="https://res.cloudinary.com/ftpta-com/image/upload/f_auto,q_70,w_200/v1592436476/logos/AKC/CGC-logo_ctdw58.png"
-        alt="Link to AKC Canine Good Citizen Info"
-      />
-    </a>
-    <figcaption>AKC Canine Good Citizen</figcaption>
-  </figure>
-  <figure>
-    <a
-      href="https://apdt.com/"
-    >
-      <img
-        src="https://res.cloudinary.com/ftpta-com/image/upload/f_auto,q_70,w_200/v1597377718/logos/APDT_logo_unzieg.jpg"
-        alt="Link to The Assocation of Professional Dog Trainers"
-      />
-    </a>
-    <figcaption>Assocation of Professional Dog Trainers Member</figcaption>
-  </figure>
+  {% endfor %}
 </div>
