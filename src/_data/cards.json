@@ -1,0 +1,32 @@
+[
+    {
+        "img_src": "https://res.cloudinary.com/ftpta-com/image/upload/f_auto,q_70,w_800/v1583283982/pretzel/DSC_2166_srbtng.jpg",
+        "img_alt": "Pretzel, the face of FTPTA",
+        "canine_name": "Pretzel",
+        "titles": [
+            {
+                "name": "Canine Good Citizen",
+                "abv": "CGC"
+            },
+            {
+                "name": "CGC Advanced",
+                "abv": "CGCA"
+            },
+            {
+                "name": "CGC Urban",
+                "abv": "CGCU"
+            }
+        ]
+    },
+    {
+        "img_src": "https://res.cloudinary.com/ftpta-com/image/upload/f_auto,q_70,w_800/v1595473903/Oreo/DSC_1542_i2vz9o.jpg",
+        "img_alt": "Oreo, the comedian of FTPTA",
+        "canine_name": "Double Stuffed Oreo",
+        "titles": [
+            {
+                "name": "Canine Good Citizen",
+                "abv": "CGC"
+            }
+        ]
+    }
+]

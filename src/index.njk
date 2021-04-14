@@ -3,34 +3,23 @@ layout: "layout.njk"
 title: FTPTA
 page_title: For the Puppies Training Academy
 ---
-
-<div class="index_img_block">
-    <figure>
-        <img src="https://res.cloudinary.com/ftpta-com/image/upload/f_auto,q_70,w_800/v1583283982/pretzel/DSC_2166_srbtng.jpg" width="800px" loading="lazy" alt="Pretzel, the face of FTPTA"/>
-        <figcaption>Image by <a href="https://www.facebook.com/profile.php?id=1832176344">OnLocation</a></figcaption>
-    </figure>
-    <div class="pretzel">
-        <h2>Home of Pretzel - 
-            <span class="darker-text" title="Canine Good Citizen">CGC</span>,
-            <span class="darker-text" title="CGC Advanced">CGCA</span>,
-            <span class="darker-text" title="CGC Urban">CGCU</span>
-        </h2>
-        <p>Rescue to Therapy Canine</p>
-        <h3>Kimberly Jackson</h3>
-        <p>AKC Evaluator</p>    
+{% for card in cards %}
+<div class="mx-auto mb-4 bg-white rounded-md overflow-hidden">
+    <div class="md:flex ">
+        <div class="">
+            <figure class="p-4">
+                <img class="rounded-sm" src={{ card.img_src }} width="800px" loading="lazy" alt="{{ card.img_alt }}"/>
+                <figcaption class="text-gray-700 text-sm">Image by <a href="https://www.facebook.com/profile.php?id=1832176344">OnLocation</a></figcaption>
+            </figure>
+        </div>
+        <div class="text-gray-900 px-4 sm:px-0 sm:pt-4">
+            <h2 class="text-4xl font-medium">Pretzel - 
+                {% for title in card.titles %}
+                <span class="font-thin text-3xl" title="{{ title.name }}">{{ title.abv }}, </span>
+                {% endfor %}
+            </h2>
+            <p class="">Rescue to Therapy Canine</p>
+        </div>
     </div>
 </div>
-<div class="index_img_block">
-    <figure>
-        <img src="https://res.cloudinary.com/ftpta-com/image/upload/f_auto,q_70,w_800/v1595473903/Oreo/DSC_1542_i2vz9o.jpg" width="800px" loading="lazy" alt="Oreo, the comedian of FTPTA"/>
-        <figcaption>Image by <a href="https://www.facebook.com/profile.php?id=1832176344">OnLocation</a></figcaption>
-    </figure>
-    <div class="pretzel">
-        <h2>Home of Double Stuffed Oreo - 
-            <span class="darker-text" title="Canine Good Citizen">CGC</span>
-        </h2>
-        <p>Rescue to Therapy Canine</p>
-        <h3>Kimberly Jackson</h3>
-        <p>AKC Evaluator</p>   
-    </div>
-</div>
+{% endfor %}
