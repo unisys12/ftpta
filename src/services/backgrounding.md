@@ -1,12 +1,11 @@
 ---
-layout: "services.njk"
-title: "Backgrounding"
-description: "Hunting Dog Background Training"
-price: "$250 a week"
-tags: "services"
+layout: 'services.njk'
+title: 'Backgrounding'
+description: 'Hunting Dog Background Training'
+price: '$250 a week'
+tags: 'services'
+page_title: 'Hunting Dog Background Training'
 ---
-
-# {{ description }}
 
 Purchasing a puppy as a hunting partner is a great investment. Let FTPTA make the most of that investment and teach it the basics for you. When your prized hunting dog comes to you, it will be ready to obey and learn your every command.
 

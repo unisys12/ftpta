@@ -4,9 +4,8 @@ title: 'Board Training'
 description: 'Domestic Board Training'
 price: '$350 a week ($1400 a month)'
 tags: 'services'
+page_title: 'Domestic Board Training'
 ---
-
-# {{ description }}
 
 This service is for, but not limited to, puppies under the age of 6 months. It follows all [AKC STAR Puppy](https://www.akc.org/products-services/training-programs/canine-good-citizen/akc-star-puppy/) and [CGC - _(Canine Good Citizen)_](https://www.akc.org/products-services/training-programs/canine-good-citizen/take-the-test/) guidelines. Our Domestic Board Training Program also covers House and Crate Training, as well as Socialization and Social Desensitization sessions with your puppy. This includes visits to several pet friendly stores in our area along with pet friendly dining areas. At the end of the 4 week program, you and your puppy will/can be evaluated again _(free of charge)_ so he or she can receive their official AKC CGCA (AKC Community Canine) and/or AKC CGCU (Canine Good Citizen Urban) awards.
 

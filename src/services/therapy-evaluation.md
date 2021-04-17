@@ -4,9 +4,8 @@ title: 'Therapy Evaluation'
 description: 'Therapy Dog Evaluation'
 price: '$60'
 tags: 'services'
+page_title: 'Therapy Dog Evaluation'
 ---
-
-# {{ description }}
 
 Evaluate dogs temperament, dominance and submissive traits, as well as sensitivity levels.
 
