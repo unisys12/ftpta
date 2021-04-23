@@ -6,10 +6,10 @@
         "price": "$60"
     },
     {
-        "header": "Volunteer Therapy Visit",
-        "details": "Would your organization like to have Pretzel and myself come visit your facility for a therapy vist? If so, please make an appointment.",
-        "url": "/services/therapy-visit",
-        "price": "FREE"
+        "header": "AKC Group Training Classes",
+        "details": "AKC STAR Puppy & CGC Training Classes",
+        "url": "/services/group-training",
+        "price": "$225 package (6 classes)"
     },
     {
         "header": "Board Training (under 6 months)",
@@ -18,9 +18,10 @@
         "price": "$350 a week ($1400)"
     },
     {
-        "header": "Owner Assited Training",
-        "details": "Owner Assited Training is moving to Group Training",
-        "url": "/services/assisted-training"
+        "header": "Volunteer Therapy Visit",
+        "details": "Would your organization like to have Pretzel and myself come visit your facility for a therapy vist? If so, please make an appointment.",
+        "url": "/services/therapy-visit",
+        "price": "FREE"
     },
     {
         "header": "Therapy Dog Evaluation",
@@ -37,11 +38,5 @@
         "header": "Therapy Dog Handler Training",
         "details": "How to communicate effectivly with your therapy dog and clients during therapy visits.",
         "price": "$75hr"
-    },
-    {
-        "header": "AKC Group Training Classes",
-        "details": "AKC STAR Puppy & CGC Training Classes",
-        "url": "/services/group-training",
-        "price": "$225 package (6 classes)"
     }
 ]
