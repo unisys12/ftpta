@@ -1,10 +1,10 @@
-<div class="akc_logos">
+<div class="flex flex-wrap justify-center py-8 md:justify-between">
   {% for logo in akc_logos %}
-  <figure>
+  <figure class="">
     <a href={{ logo.info_url }}>
       <img src={{ logo.img_url }} alt="{{ logo.img_alt_text }}" />
     </a>
-    <figcaption>{{ logo.name }}</figcaption>
+    <figcaption class="text-center">{{ logo.name }}</figcaption>
   </figure>
   {% endfor %}
 </div>

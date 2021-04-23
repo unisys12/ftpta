@@ -1,15 +1,21 @@
 {
   "name": "ftpta",
-  "version": "1.2.12",
+  "version": "1.3.0",
   "description": "site and future blog for FTPTA",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx @11ty/eleventy --serve"
+    "dev": "npx @11ty/eleventy --serve",
+    "compile:css": "postcss src/css/tailwind.css -o src/css/style.css"
   },
   "author": "unisys12",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1"
+    "@11ty/eleventy": "^0.12.1",
+    "@tailwindcss/forms": "^0.3.2",
+    "@tailwindcss/typography": "^0.4.0",
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.10",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.1.1"
   }
 }

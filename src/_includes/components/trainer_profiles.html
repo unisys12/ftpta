@@ -1,36 +1,20 @@
-<div class="profiles">
-    {% for profile in profiles %}
-    <section class="profile">
-        <figure class="about_img">
+{% for profile in profiles %}
+<section class="mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-3xl">
+    <div class="grid grid-cols-1 sm:grid-cols-2">
+        <figure class="justify-self-center pt-4">
             <img src={{ profile.url }} loading="lazy" alt="Image of Kim, owner and lead trainer" height="376px"
                 width="300px" />
-            <figcaption>{{ profile.caption }}</figcaption>
+            <figcaption class="text-gray-600">{{ profile.caption }}</figcaption>
             {% if profile.credit %}
-            <sub>Self Taken Image</sub>
+            <sub class="text-gray-500">Self Taken Image</sub>
             {% else %}
-            <sub>Image by <a href="https://www.facebook.com/profile.php?id=1832176344">On Location</a></sub>
+            <sub class="text-gray-500">Image by <a href="https://www.facebook.com/profile.php?id=1832176344">On
+                    Location</a></sub>
             {% endif %}
         </figure>
-        <article class="profile_text">
-            <p>{{ profile.article }}</p>
+        <article class="p-4">
+            <p class="text-gray-800">{{ profile.article }}</p>
         </article>
-    </section>
-    {% endfor %}
-</div>
-
-
-
-
-
-<!-- <section>
-    <article>
-        <div class="img-display">
-            {% for data in about %}
-            <figure>
-                <img src={{ data.url }} alt={{ data.alt }} loading="lazy" />
-                <figcaption>{{ data.figcaption }}</figcaption>
-            </figure>
-            {% endfor %}
-        </div>
-    </article>
-</section> -->
+    </div>
+</section>
+{% endfor %}

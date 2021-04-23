@@ -5,17 +5,17 @@ page_title: Kimberly's Portfolio
 tag: "portfolio"
 ---
 
-<div class="portfolio-page">
+<div class="px-4">
 {% for dog in dogs %}
     {% if dog.portfolio == "true" %}
-    <section class="portfolio">        
-        <div class="portfolio-header">
-            <h2>{{ dog.name }}</h2>
+    <section class="">        
+        <div class="mb-2">
+            <h2 class="2xl">{{ dog.name }}</h2>
             <sub>{{ dog.breed }}</sub>
         </div>
         <article class="portfolio-content">
             <p>{{ dog.dialog }}</p>
-            <div class="images-wrapper">
+            <div class="flex flex-wrap justify-center my-4 gap-4">
                 {% for image in dog.images %}
                 <figure>
                     <img src="{{ image.url }}" alt="{{ image.alt }}" loading="lazy" />

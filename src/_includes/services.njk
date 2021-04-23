@@ -1,9 +1,17 @@
 {% extends "layout.njk" %}
-    {% block postContent %}
-    {% if page.url == "/services/group-training/" %}
+{% block postContent %}
+{% if page.url == "/services/group-training/" %}
+    <div class="max-w-full">
+        <div class="grid grid-cols-1 gap-6">
         {% include "components/group-form.html" %}
-    {% endif %}
-    {% if page.url == "/services/board-training/" %}
+        </div>
+    </div>
+{% endif %}
+{% if page.url == "/services/board-training/" %}
+<div class="max-w-full">
+    <div class="grid grid-cols-1 gap-6">
         {% include "components/boarding-form.html" %}
-    {% endif %}
+    </div>
+</div>
+{% endif %}
 {% endblock %}

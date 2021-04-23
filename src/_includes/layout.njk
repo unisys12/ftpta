@@ -9,15 +9,17 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap" rel="stylesheet" as="font">
     <title>{{ title }}</title>
 </head>
-<body>
+<body class="container mx-auto bg-black text-gray-200">
     {% include "header.njk" %}
+    
     <main>
-        {% include "components/content_header.html" %}       
+        {% include "components/content_header.html" %}
         {{ content | safe }}
         {% block postContent %}{% endblock %}
         {% block portfolioContent %}{% endblock %}
         {% include "components/akc_logos.html" %}
     </main>
+    
     {% include "footer.njk" %}
 </body>
 </html>

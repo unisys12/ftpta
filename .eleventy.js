@@ -1,5 +1,5 @@
 module.exports = (config) => {
-  config.addPassthroughCopy("src/css");
+  config.addPassthroughCopy("src/css/style.css");
   config.addPassthroughCopy("src/imgs");
   config.addPassthroughCopy("src/js");
   return {
