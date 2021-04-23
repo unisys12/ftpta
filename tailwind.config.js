@@ -1,5 +1,13 @@
 module.exports = {
-  purge: [],
+  purge: {
+    enabled: true,
+    content: [
+      "./src/_includes/*.njk",
+      "./src/_includes/components/*.html",
+      "./src/services/*.html",
+      "./src/*.njk",
+    ],
+  },
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
