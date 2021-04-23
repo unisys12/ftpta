@@ -14,15 +14,18 @@ module.exports = {
       typography: {
         DEFAULT: {
           css: {
-            color: "colors.gray.800",
+            color: "#E5E7EB",
             a: {
-              color: "#3182ce",
+              color: "#F3F4F6",
               "&:hover": {
-                color: "#2c5282",
+                color: "#F9FAFB",
               },
             },
             h2: {
-              color: "colors.indigo.600",
+              color: "#4F46E5",
+            },
+            h3: {
+              color: "#A5B4FC",
             },
           },
         },

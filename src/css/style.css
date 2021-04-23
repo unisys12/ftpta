@@ -606,7 +606,7 @@ select {
 }
 
 .prose {
-  color: colors.gray.800;
+  color: #E5E7EB;
   max-width: 65ch;
 }
 
@@ -619,13 +619,13 @@ select {
 }
 
 .prose a {
-  color: #3182ce;
+  color: #F3F4F6;
   text-decoration: underline;
   font-weight: 500;
 }
 
 .prose a:hover {
-  color: #2c5282;
+  color: #F9FAFB;
 }
 
 .prose strong {
@@ -719,7 +719,7 @@ select {
 }
 
 .prose h2 {
-  color: colors.indigo.600;
+  color: #4F46E5;
   font-weight: 700;
   font-size: 1.5em;
   margin-top: 2em;
@@ -728,7 +728,7 @@ select {
 }
 
 .prose h3 {
-  color: #111827;
+  color: #A5B4FC;
   font-weight: 600;
   font-size: 1.25em;
   margin-top: 1.6em;
@@ -1238,14 +1238,6 @@ select {
   justify-content: center;
 }
 
-.justify-self-start {
-  justify-self: start;
-}
-
-.justify-self-end {
-  justify-self: end;
-}
-
 .justify-self-center {
   justify-self: center;
 }
@@ -1557,7 +1549,7 @@ select {
 
 @media (min-width: 640px) {
   .sm\:prose {
-    color: colors.gray.800;
+    color: #E5E7EB;
     max-width: 65ch;
   }
 
@@ -1570,13 +1562,13 @@ select {
   }
 
   .sm\:prose a {
-    color: #3182ce;
+    color: #F3F4F6;
     text-decoration: underline;
     font-weight: 500;
   }
 
   .sm\:prose a:hover {
-    color: #2c5282;
+    color: #F9FAFB;
   }
 
   .sm\:prose strong {
@@ -1670,7 +1662,7 @@ select {
   }
 
   .sm\:prose h2 {
-    color: colors.indigo.600;
+    color: #4F46E5;
     font-weight: 700;
     font-size: 1.5em;
     margin-top: 2em;
@@ -1679,7 +1671,7 @@ select {
   }
 
   .sm\:prose h3 {
-    color: #111827;
+    color: #A5B4FC;
     font-weight: 600;
     font-size: 1.25em;
     margin-top: 1.6em;
