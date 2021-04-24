@@ -5,12 +5,12 @@ page_title: Kimberly's Portfolio
 tag: "portfolio"
 ---
 
-<div class="px-4">
+<div class="mx-auto px-4 prose prose-sm sm:prose lg:prose-lg xl:prose-xl">
 {% for dog in dogs %}
     {% if dog.portfolio == "true" %}
     <section class="">        
         <div class="mb-2">
-            <h2 class="2xl">{{ dog.name }}</h2>
+            <h3 class="2xl">{{ dog.name }}</h3>
             <sub>{{ dog.breed }}</sub>
         </div>
         <article class="portfolio-content">
