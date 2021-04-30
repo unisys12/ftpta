@@ -6,9 +6,15 @@
         "price": "$60"
     },
     {
-        "header": "AKC Group Training Classes",
-        "details": "AKC STAR Puppy & CGC Training Classes",
-        "url": "/services/group-training",
+        "header": "AKC STAR Puppy Training Class",
+        "details": "AKC STAR Puppy Class",
+        "url": "/services/star-puppy-training",
+        "price": "$225 package (6 classes)"
+    },
+    {
+        "header": "AKC CGC Training Class",
+        "details": "AKC CGC Class",
+        "url": "/services/cgc-training",
         "price": "$225 package (6 classes)"
     },
     {
@@ -32,11 +38,6 @@
     {
         "header": "Therapy Dog Training",
         "details": "Training based on Star Puppy, Canine Good Citizen, CGC Advanced, Urban CGC and Public Access.",
-        "price": "$75hr"
-    },
-    {
-        "header": "Therapy Dog Handler Training",
-        "details": "How to communicate effectivly with your therapy dog and clients during therapy visits.",
         "price": "$75hr"
     }
 ]
