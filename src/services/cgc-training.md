@@ -1,13 +1,13 @@
 ---
 layout: 'service-template.njk'
 title: 'AKC CGC Training'
-description: 'AKC CGC Class'
-price: '$225 package of 6 classes'
+description: 'AKC CGC Group Training Class'
+price: '$225 package of 6 1hr classes'
 tags: 'services'
 page_title: 'AKC CGC'
 ---
 
-The AKC Canine Good Citizen class (CGC) follows a _10 Skill Training Program_ that's open to all dogs that focuses on teaching the basics of good manners and obedience, instilling the values of responsible ownership, and strengthening the bond between you and your dog at home and out in the community.
+The AKC Canine Good Citizen class (CGC) follows a _10 Skill Training Program_ that's open to all dogs that focuses on teaching the basics of good manners and obedience, instilling the values of responsible ownership, and strengthening the bond between you and your dog at home and out in the community. This package consists of six one hour classes, currently held at our home.
 
 {{ price }}
 
@@ -47,7 +47,7 @@ The AKC Canine Good Citizen class (CGC) follows a _10 Skill Training Program_ th
 ### Requirements
 
 - Dog must be at least 6 months of age.
-- Owner must be able to provide proof that the dog has received at least 4 sets of vaccination shots. 
+- Owner must be able to provide proof that the dog has received at least 4 sets of vaccination shots.
 - No electronic collars.
 - No treats can be used during testing.
 - We require a recent receipt, from a vet of your choice, that shows you have purchased heartworm and flea/tick control has been purchased within the last 30 days.

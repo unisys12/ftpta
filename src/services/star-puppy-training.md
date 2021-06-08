@@ -1,14 +1,14 @@
 ---
 layout: 'service-template.njk'
 title: 'AKC STAR Puppy Training'
-description: 'AKC STAR Puppy Class'
-price: '$225 package of 6 classes'
+description: 'AKC STAR Puppy Group Training Class'
+price: '$225 package of 6 1hr classes'
 tags: 'services'
 page_title: 'AKC STAR Puppy'
 ---
 
 The STAR Puppy class follows the 20 Points of the [AKC STAR
-Puppy](https://www.akc.org/products-services/training-programs/canine-good-citizen/akc-star-puppy/) curriculum.
+Puppy](https://www.akc.org/products-services/training-programs/canine-good-citizen/akc-star-puppy/) curriculum. This package consists of six one hour classes, currently held at our home.
 
 {{ price }}
 

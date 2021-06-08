@@ -6,20 +6,20 @@
         "price": "$60"
     },
     {
-        "header": "AKC STAR Puppy Training Class",
+        "header": "AKC STAR Puppy Group Training Class",
         "details": "AKC STAR Puppy Class",
         "url": "/services/star-puppy-training",
         "price": "$225 package (6 classes)"
     },
     {
-        "header": "AKC CGC Training Class",
+        "header": "AKC CGC Group Training Class",
         "details": "AKC CGC Class",
         "url": "/services/cgc-training",
         "price": "$225 package (6 classes)"
     },
     {
         "header": "Board Training (under 6 months)",
-        "details": "This service includes, but not limited to AKC STAR Puppy and Pre-CGC _(Canine Good Citizen)_",
+        "details": "This service includes, but not limited to AKC STAR Puppy and Pre-CGC Canine Good Citizen",
         "url": "/services/board-training",
         "price": "$1400"
     },
