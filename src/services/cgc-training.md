@@ -9,8 +9,6 @@ page_title: 'AKC CGC'
 
 The AKC Canine Good Citizen class (CGC) follows a _10 Skill Training Program_ that's open to all dogs that focuses on teaching the basics of good manners and obedience, instilling the values of responsible ownership, and strengthening the bond between you and your dog at home and out in the community. This package consists of six one hour classes, currently held at our home.
 
-{{ price }}
-
 ### CGC Test Items
 
 1. Accepting a Friendly Stranger - demonstrates that the dog will allow a
@@ -41,8 +39,6 @@ The AKC Canine Good Citizen class (CGC) follows a _10 Skill Training Program_ th
 10. Supervised Separation - demonstrates that a dog can be left in
     the presence of a trusted person and will maintain
     its training and good manners.
-
-{{ price }}
 
 ### Requirements
 

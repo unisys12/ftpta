@@ -2,42 +2,35 @@
     {
         "header": "Evaluation",
         "details": "Evaluate the dog and owners to customize a training plan based on the needs of the dog and owner",
-        "url": "/services/domestic-evaluation",
-        "price": "$60"
+        "url": "/services/domestic-evaluation"
     },
     {
         "header": "AKC STAR Puppy Group Training Class",
         "details": "AKC STAR Puppy Class",
-        "url": "/services/star-puppy-training",
-        "price": "$225 package (6 classes)"
+        "url": "/services/star-puppy-training"
     },
     {
         "header": "AKC CGC Group Training Class",
         "details": "AKC CGC Class",
-        "url": "/services/cgc-training",
-        "price": "$225 package (6 classes)"
+        "url": "/services/cgc-training"
     },
     {
         "header": "Board Training (under 6 months)",
         "details": "This service includes, but not limited to AKC STAR Puppy and Pre-CGC Canine Good Citizen",
-        "url": "/services/board-training",
-        "price": "$1400"
+        "url": "/services/board-training"
     },
     {
         "header": "Volunteer Therapy Visit",
         "details": "Would your organization like to have Pretzel and myself come visit your facility for a therapy vist? If so, please make an appointment.",
-        "url": "/services/therapy-visit",
-        "price": "FREE"
+        "url": "/services/therapy-visit"
     },
     {
         "header": "Therapy Dog Evaluation",
         "details": "Evaluate dogs tempurment, domaninece and submissive traits, as well as sensitivity levels.",
-        "url": "/services/therapy-evaluation",
-        "price": "$60"
+        "url": "/services/therapy-evaluation"
     },
     {
         "header": "Therapy Dog Training",
-        "details": "Training based on Star Puppy, Canine Good Citizen, CGC Advanced, Urban CGC and Public Access.",
-        "price": "$75hr"
+        "details": "Training based on Star Puppy, Canine Good Citizen, CGC Advanced, Urban CGC and Public Access."
     }
 ]

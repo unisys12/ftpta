@@ -2,7 +2,6 @@
 layout: 'service-template.njk'
 title: 'Board Training'
 description: 'Domestic Board Training'
-price: '$1400 a month'
 tags: 'services'
 page_title: 'Board Training'
 ---
@@ -27,5 +26,3 @@ If your puppy requires a special dog food, you will be required to provide it. O
 Per AKC standards, owners will be required to provide vet records at time of evaluation. Those records will be required before being admitted into the program. The records should show proof that the puppy has had at least 3 sets of shots. Proof of flea and tick control, as well as heart worm prevention is also required. Monthly flea, tick and heartworm medications will gladly be administered at no additional fee, but the owner is asked to provide the medications.
 
 We understand that life can be quit hectic at times. If your pet needs to make a trip to the vet, say for example it's time for it's 4th set of shots, we will gladly take the dog for their visit at no charge. If we need to purchase the medications for your puppy, we will simply bill you for the cost of those medications on your next invoice on a separate line item. We will provide you a copy of the receipt from your vet as well. This is for the safety of all current and future puppies in the program.
-
-{{ price }}

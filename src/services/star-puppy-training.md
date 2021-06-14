@@ -2,15 +2,12 @@
 layout: 'service-template.njk'
 title: 'AKC STAR Puppy Training'
 description: 'AKC STAR Puppy Group Training Class'
-price: '$225 package of 6 1hr classes'
 tags: 'services'
 page_title: 'AKC STAR Puppy'
 ---
 
 The STAR Puppy class follows the 20 Points of the [AKC STAR
 Puppy](https://www.akc.org/products-services/training-programs/canine-good-citizen/akc-star-puppy/) curriculum. This package consists of six one hour classes, currently held at our home.
-
-{{ price }}
 
 ### Owners Learn
 
@@ -51,5 +48,3 @@ The skills in AKC S.T.A.R. Puppy classes are practical and functional. Teaching 
 - Only normal collars or harnesses will be allowed during testing. No electronic collars.
 - Dog cannot be above the age of 1 year old.
 - We require a recent receipt, from a vet of your choice, that shows you have purchased heartworm and flea/tick control within the last 30 days.
-
-{{ price }}

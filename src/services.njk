@@ -7,7 +7,7 @@ tag: "services"
 
 <div class="grid grid-cols-1 gap-4 p-4 text-gray-900 justify-center md:grid-cols-2 lg:grid-cols-3">
 {% for service in services %}
-    <section class="bg-gray-200 p-2 rounded-md flex-none">        
+    <section class="bg-gray-200 p-2 rounded-md flex-none p-4">        
         <div class="card-header">
         {% if service.url %}
             <h3><a href="{{ service.url }}"><h3 class="text-xl font-bold">{{ service.header }}</h3></a>
@@ -17,7 +17,6 @@ tag: "services"
         </div>
         <article class="card-content">
             <p>{{ service.details }}</p>
-            <h4 class="text-lg text-indigo-500 font-semibold">{{ service.price }}</h4>
         </article>        
     </section>
 {% endfor %}
