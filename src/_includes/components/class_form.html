@@ -1,4 +1,4 @@
-<form name="{{ page_title | lower | replace(" ", "-") }}" method="post" class="mt-8 px-4 text-gray-300" netlify>
+<form name="{{ page_title | lower | replace(" ", " -") }}" method="post" class="mt-8 px-4 text-gray-300" netlify>
     <label class="block lg:text-lg" for="owner_name">
         <span class="">Owners Name:</span>
         <input type="text" class="block mt-1 w-full rounded-md" required name="owner_name" />
@@ -6,6 +6,18 @@
     <label for="owner_address" class="block mt-8 lg:text-lg">
         <span class="">Owners Address:</span>
         <input type="text" class="block mt-1 w-full rounded-md" required name="owner_address" />
+    </label>
+    <label for="owner_city" class="block mt-8 lg:text-lg">
+        <span class="">Owners City:</span>
+        <input type="text" class="block mt-1 w-full rounded-md" required name="owner_city" />
+    </label>
+    <label for="owner_state" class="block mt-8 lg:text-lg">
+        <span class="">Owners State:</span>
+        <input type="text" class="block mt-1 w-full rounded-md" required name="owner_state" />
+    </label>
+    <label for="owner_zip" class="block mt-8 lg:text-lg">
+        <span class="">Owners Zip:</span>
+        <input type="text" class="block mt-1 w-full rounded-md" required name="owner_zip" />
     </label>
     <label class="block mt-8 lg:text-lg" for="owner_email">
         <span>Owners Email:</span>
