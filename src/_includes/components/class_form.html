@@ -1,4 +1,4 @@
-<form name="{{ page_title | lower | replace(" ", " -") }}" method="post" class="mt-8 px-4 text-gray-300" netlify>
+<form name="{{ page_title | lower | replace(' ', '-') }}" method="post" class="my-8 px-4 text-gray-300" netlify>
     <label class="block lg:text-lg" for="owner_name">
         <span class="">Owners Name:</span>
         <input type="text" class="block mt-1 w-full rounded-md" required name="owner_name" />
@@ -62,11 +62,9 @@
         </select>
     </label>
     <label for="issues" class="block mt-8 lg:text-lg">Issues:
-        <textarea name="issues" id="issues" rows="10" class="w-full rounded-md"
+        <textarea name="issues" id="issues" rows="10" class="w-full rounded-md mb-5"
             placeholder="What are your goals for training??"></textarea>
     </label>
-    <label class="block mt-8 lg:text-lg" for="promo_code">Promo Code:
-        <input class="block mt-1 w-full rounded-md lg:text-lg" type="text" name="promo_code" id="promo_code" value="" />
-    </label>
-    <input type="submit" value="Submit" class="text-gray-900 py-1 px-2 mt-4 rounded-md" />
+    <input type="submit" value="Submit Form"
+        class="bg-blue-500 hover:bg-blue-700 transition text-white font-bold py-2 px-4 rounded">
 </form>
