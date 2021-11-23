@@ -5,16 +5,6 @@
         "url": "/services/domestic-evaluation"
     },
     {
-        "header": "AKC STAR Puppy Group Training Class",
-        "details": "AKC STAR Puppy Class",
-        "url": "/services/star-puppy-training"
-    },
-    {
-        "header": "AKC CGC Group Training Class",
-        "details": "AKC CGC Class",
-        "url": "/services/cgc-training"
-    },
-    {
         "header": "Board Training (under 6 months)",
         "details": "This service includes, but not limited to AKC STAR Puppy and Pre-CGC Canine Good Citizen",
         "url": "/services/board-training"
