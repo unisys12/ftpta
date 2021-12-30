@@ -1,14 +1,10 @@
 module.exports = {
-  purge: {
-    enabled: true,
-    content: [
-      "./src/_includes/*.njk",
-      "./src/_includes/components/*.html",
-      "./src/services/*.html",
-      "./src/*.njk",
-    ],
-  },
-  darkMode: false, // or 'media' or 'class'
+  content: [
+    "./src/_includes/*.njk",
+    "./src/_includes/components/*.html",
+    "./src/services/*.html",
+    "./src/*.njk",
+  ],
   theme: {
     extend: {
       typography: {
@@ -34,9 +30,6 @@ module.exports = {
         },
       },
     },
-  },
-  variants: {
-    extend: {},
   },
   plugins: [require("@tailwindcss/forms"), require("@tailwindcss/typography")],
 };
