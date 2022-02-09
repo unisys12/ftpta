@@ -4,8 +4,7 @@
   "description": "site and future blog for FTPTA",
   "main": "index.js",
   "scripts": {
-    "dev": "npx @11ty/eleventy --serve",
-    "compile:css": "postcss src/css/tailwind.css -o src/css/style.css"
+    "dev": "npx @11ty/eleventy --serve & postcss src/css/tailwind.css -o _site/css/style.css"
   },
   "author": "unisys12",
   "license": "ISC",

@@ -3,6 +3,7 @@ module.exports = {
     "./src/_includes/*.njk",
     "./src/_includes/components/*.html",
     "./src/services/*.html",
+    "./src/blog/*.njk",
     "./src/*.njk",
   ],
   theme: {
