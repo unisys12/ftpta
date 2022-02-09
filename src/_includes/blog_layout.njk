@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="For The Puppies Training Academy is an AKC registered in-home board and train facility that specializes in training canines less than 6 months of age.">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/imgs/favicon.ico" type="image/x-icon">
+    <title>FTPTA BLOG</title>
+</head>
+<body class="container mx-auto bg-black text-gray-200">
+    {% include "header.njk" %}
+    <main>
+        {% include "components/content_header.html" %}
+        <div class="flex justify-center">
+            <div class="mx-auto px-4 prose prose-zinc prose-sm sm:prose lg:prose-lg xl:prose-xl">
+                {{ content | safe }}
+            </div>
+        </div>
+        {% include "components/akc_logos.html" %}
+    </main>
+    {% include "footer.njk" %}
+</body>
+</html>

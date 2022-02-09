@@ -1,0 +1,13 @@
+---
+title: "FTPTA BLOG"
+page_title: "For The Puppies Blog"
+---
+{%- for blog in collections.blog -%}
+  <article class="flex-auto">
+    <img src="{{ blog.data.post_thumbnail }}" alt="{{ blog.data.image_caption }}" class="rounded-xl">
+    <a href='{{ blog.data.post_title | slug }}' class="text-2xl font-bold no-underline">{{ blog.data.post_title }}</a>
+    <div>
+      <small>{{ blog.data.post_description }}</small>
+    </div>
+  </article>
+{%- endfor -%}
