@@ -2,7 +2,7 @@
 post_title: "Post One"
 post_description: "Test blog one of I don't know how many"
 post_image: "https://res.cloudinary.com/ftpta-com/image/upload/v1644335632/blog/austin_profile_v4sgta.jpg"
-post_thumbnail: "https://res.cloudinary.com/ftpta-com/image/upload/w_400/v1644335632/blog/austin_profile_v4sgta.jpg"
+post_thumbnail: "https://res.cloudinary.com/ftpta-com/image/upload/w_200/v1644335632/blog/austin_profile_v4sgta.jpg"
 image_caption: "Austin looking pretty"
 tags: ['blog', 'test']
 ---
