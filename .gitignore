@@ -1,5 +1,5 @@
 node_modules
 _site
 css/style.css
-blog/drafts/**
+src/blog/drafts
 .vscode/settings.json
