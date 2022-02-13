@@ -1,13 +1,16 @@
 ---
 title: "FTPTA BLOG"
-page_title: "For The Puppies Blog"
 ---
 {%- for blog in collections.blog -%}
-  <article class="flex-auto">
-    <img src="{{ blog.data.post_thumbnail }}" alt="{{ blog.data.image_caption }}" class="rounded-xl">
-    <a href='{{ blog.data.post_title | slug }}' class="text-2xl font-bold no-underline">{{ blog.data.post_title }}</a>
-    <div>
-      <small>{{ blog.data.post_description }}</small>
+<article class="grid sm:grid-cols-2 items-center bg-stone-600 py-0 mb-4 rounded-md">
+    <img src="{{ blog.data.post_thumbnail }}" alt="{{ blog.data.image_caption }}" class="shadow-lg shadow-slate-600">
+    <div class="grid grid-rows-2 justify-items-center items-center px-2">
+      <div>
+        <a href='{{ blog.data.post_title | slug }}'>{{ blog.data.post_title }}</a>
+      </div>
+      <div>
+        <p>{{ blog.data.post_description }}</p>
+      </div>
     </div>
-  </article>
+</article>
 {%- endfor -%}

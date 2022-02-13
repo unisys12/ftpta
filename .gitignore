@@ -1,5 +1,5 @@
 node_modules
 _site
 src/css/style.css
-src/blog/drafts/
+src/blog/*.template
 .vscode/settings.json
