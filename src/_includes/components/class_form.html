@@ -1,39 +1,53 @@
 <form name="{{ page_title | lower | replace(' ', '-') }}" method="post" class="my-8 px-4 text-gray-300" netlify>
     <label class="block lg:text-lg" for="owner_name">
-        <span class="">Owners Name:</span>
+        <span class="font-medium">Owners Name:</span>
         <input type="text" class="block mt-1 w-full rounded-md" required name="owner_name" />
     </label>
     <label for="owner_address" class="block mt-8 lg:text-lg">
-        <span class="">Owners Address:</span>
+        <span class="font-medium">Owners Address:</span>
         <input type="text" class="block mt-1 w-full rounded-md" required name="owner_address" />
     </label>
     <label for="owner_city" class="block mt-8 lg:text-lg">
-        <span class="">Owners City:</span>
+        <span class="font-medium">Owners City:</span>
         <input type="text" class="block mt-1 w-full rounded-md" required name="owner_city" />
     </label>
     <label for="owner_state" class="block mt-8 lg:text-lg">
-        <span class="">Owners State:</span>
+        <span class="font-medium">Owners State:</span>
         <input type="text" class="block mt-1 w-full rounded-md" required name="owner_state" />
     </label>
     <label for="owner_zip" class="block mt-8 lg:text-lg">
-        <span class="">Owners Zip:</span>
+        <span class="font-medium">Owners Zip:</span>
         <input type="text" class="block mt-1 w-full rounded-md" required name="owner_zip" />
     </label>
     <label class="block mt-8 lg:text-lg" for="owner_email">
-        <span>Owners Email:</span>
+        <span class="font-medium">Owners Email:</span>
         <input class="block mt-1 w-full rounded-md" type="email" required name="owner_email" />
     </label>
-    <label class="block mt-8 lg:text-lg" for="owner_phone">Owners Phone:
+    <label class="block mt-8 lg:text-lg" for="owner_phone">
+        <span class="font-medium">Owners Phone:</span>
         <input class="block mt-1 w-full rounded-md" type="tel" required name="owner_phone" />
     </label>
     <small>Format 662-555-5555</small>
-    <label class="block mt-8 lg:text-lg" for="canine_name">Canines Name:
+    <label class="block mt-8 lg:text-lg" for="canine_name">
+        <span class="font-medium">Canines Name:</span>
         <input class="block mt-1 w-full rounded-md" type="text" required name="canine_name" />
     </label>
-    <label class="block mt-8 lg:text-lg" for="canine_breed">Canines Breed:
+    <label class="block mt-8 lg:text-lg" for="canine_breed">
+        <span class="font-medium">Canines Breed:</span>
         <input class="block mt-1 w-full rounded-md" type="text" required name="canine_breed" />
     </label>
-    <label class="block mt-8 lg:text-lg" for="canine_age">Canines Age:
+    <label class="block mt-8 lg:text-lg" for="canine_age">
+        <span class="font-medium">Canines Age:</span>
+        <span class="ml-4 lg:text-lg">Years</span>
+        <select type="number" required name="canine_age_years" value="0"
+            class="text-gray-700 px-6 mt-1 ml-1 rounded-md">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5+</option>
+        </select>
         <span class="label_title">Months</span>
         <select type="number" required name="canine_age_months" value="0"
             class="text-gray-700 px-6 mt-1 ml-1 rounded-md">
@@ -50,18 +64,9 @@
             <option value="10">10</option>
             <option value="11">11</option>
         </select>
-        <span class="ml-4 lg:text-lg">Years</span>
-        <select type="number" required name="canine_age_years" value="0"
-            class="text-gray-700 px-6 mt-1 ml-1 rounded-md">
-            <option value="0">0</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5+</option>
-        </select>
     </label>
-    <label for="issues" class="block mt-8 lg:text-lg">Issues:
+    <label for="issues" class="block mt-8 lg:text-lg">
+        <span class="font-medium">Issues:</span>
         <textarea name="issues" id="issues" rows="10" class="w-full rounded-md mb-5"
             placeholder="What are your goals for training??"></textarea>
     </label>
