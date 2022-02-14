@@ -2,7 +2,7 @@
   {% for logo in akc_logos %}
   <figure class="">
     <a href={{ logo.info_url }}>
-      <img src={{ logo.img_url }} alt="{{ logo.img_alt_text }}" />
+      <img src={{ logo.img_url }} alt="{{ logo.img_alt_text }}" class="rounded-full" />
     </a>
     <figcaption class="text-center">{{ logo.name }}</figcaption>
   </figure>
