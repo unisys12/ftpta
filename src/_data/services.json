@@ -2,25 +2,37 @@
     {
         "header": "Evaluation",
         "details": "Evaluate the dog and owners to customize a training plan based on the needs of the dog and owner",
-        "url": "/services/domestic-evaluation"
+        "url": "/services/evaluation",
+        "price": "starting @ $60.00"
     },
     {
-        "header": "Board Training (under 6 months)",
-        "details": "This service includes, but not limited to AKC STAR Puppy and Pre-CGC Canine Good Citizen",
-        "url": "/services/board-training"
+        "header": "Puppy Program",
+        "details": "Our Puppy Program is geared towards puppies between the ages of 8 - 16 weeks (2 - 4 months) of age. The 4 week programs gives your puppy the head start they deserve.",
+        "url": "/services/puppy-program",
+        "price": "$2,000"
+    },
+    {
+        "header": "Advanced Obedience Program",
+        "details": "Our Advanced Obedience Program is geared towards puppies over 4 months of age. We introduce more advanced behavior skills as well as basic public access training.",
+        "url": "/services/advanced-obedience-program",
+        "price": "$2,200"
+    },
+    {
+        "header": "Group Training Classes",
+        "details": "6 1 hour classes where you come to our home and train with others.",
+        "url": "/services/group-training",
+        "price": "$180.00 for 6 classes"
     },
     {
         "header": "Volunteer Therapy Visit",
-        "details": "Would your organization like to have Pretzel and myself come visit your facility for a therapy vist? If so, please make an appointment.",
-        "url": "/services/therapy-visit"
-    },
-    {
-        "header": "Therapy Dog Evaluation",
-        "details": "Evaluate dogs tempurment, domaninece and submissive traits, as well as sensitivity levels.",
-        "url": "/services/therapy-evaluation"
+        "details": "Would your organization like to have Pretzel and myself come visit your facility for a therapy visit? If so, please make an appointment.",
+        "url": "/services/therapy-visit",
+        "price": "FREE"
     },
     {
         "header": "Therapy Dog Training",
-        "details": "Training based on Star Puppy, Canine Good Citizen, CGC Advanced, Urban CGC and Public Access."
+        "details": "Training based on Star Puppy, Canine Good Citizen, CGC Advanced, Urban CGC and Public Access.",
+        "url": "",
+        "price": "$3200.00"
     }
 ]
