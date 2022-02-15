@@ -25,11 +25,7 @@ module.exports = {
               color: "#A5B4FC",
             },
             blockquote: {
-<<<<<<< HEAD
               color: "#fafafa",
-=======
-              color: "#fafafa", // zinc-50
->>>>>>> 90d4874 (add custom blockquote styling)
             },
           },
         },
