@@ -39,7 +39,7 @@ During this 4 week program your puppy will come live with our family, in our hom
 
 It's vital that we maintain the bond between you and your puppy. It's also important that you, as your puppies owner, learn along with your new friend. For these reasons, we require that you attend at least one 1 hour training session with your puppy each week during their time here. This not only allows you to spend time with your pet, but get an in-person view of their training progress. It also gives us a chance to help instruct you on how to use the commands that we are teaching your puppy and properly communicate with your new family member. Some clients choose take their puppies home over the weekends, which we are perfectly ok with.
 
-{% include components/service_requirements.md %}
+{% include "components/service_requirements.md" %}
 
 
 ## Precautions
@@ -47,4 +47,4 @@ Your puppy is _very_ vulnerable during this early stage of their development. Wi
 
 {{ page_title }} {{ price }}
 
-{% include components/privacy.html %}
+{% include "components/privacy.html" %}

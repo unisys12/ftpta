@@ -80,8 +80,8 @@ The skills in AKC S.T.A.R. Puppy classes are practical and functional. Teaching 
     the presence of a trusted person and will maintain
     its training and good manners.
 
-{% include components/service_requirements.md %}
+{% include "components/service_requirements.md" %}
 
 ### {{ price }}
 
-{% include components/privacy.html %}
+{% include "components/privacy.html" %}

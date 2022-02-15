@@ -29,8 +29,8 @@ Our Advanced Obedience Program fits all of these scenario's and more. Just like 
 - Controlled Heel
 - Controlled Greeting of people
 
-{% include components/service_requirements.md %}
+{% include "components/service_requirements.md" %}
 
 {{ page_title }} {{ price }}
 
-{% include components/privacy.html %}
+{% include "components/privacy.html" %}
