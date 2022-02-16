@@ -2,7 +2,9 @@
   "name": "ftpta",
   "version": "1.4.0",
   "description": "site and future blog for FTPTA",
-  "main": "index.js",
+  "main": "index.html",
+  "node": ">=16.0.0",
+  "npm": ">=8.0.0",
   "scripts": {
     "dev": "run-p dev:*",
     "dev:compile-css": "postcss src/css/tailwind.css -o src/css/style.css",
