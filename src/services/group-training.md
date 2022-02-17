@@ -8,7 +8,7 @@ price: '$180.00 for six 1 hour classes'
 ---
 
 
-The goal of our {{ title }} is to give owners an option that allows them to hang out with other puppy owners, share stories, successes and failures. Believe it or not, it can be very therapeutic to know that you are not the only one that has been _this thing_ wrong or having trouble with potty accidents after trying what seems like everything.
+The goal of our {{ title }} is to give owners an option that allows them to hang out with other puppy owners, share stories, successes and failures. Believe it or not, it can be very therapeutic to know that you are not the only one that has been doing _this thing_ wrong or having trouble with potty accidents after trying what seems like everything.
 
 ### {{ price }}
 
