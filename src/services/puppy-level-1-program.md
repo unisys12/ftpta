@@ -1,9 +1,9 @@
 ---
 layout: 'service-template.njk'
-title: 'Puppy Program'
+title: 'Puppy Program Level 1'
 description: 'Give your puppy the head start it deserves.'
 tags: 'services'
-page_title: 'Puppy Program'
+page_title: 'Puppy Program Level 1'
 price: '$2000'
 ---
 
