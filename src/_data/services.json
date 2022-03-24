@@ -24,6 +24,12 @@
         "price": "$3200.00"
     },
     {
+        "header": "Day Training",
+        "details": "Think of it as day care, but revoled around training",
+        "url": "/services/day-training",
+        "price": "$40.00 a day"
+    },
+    {
         "header": "Group Training Classes",
         "details": "6 1 hour classes where you come to our home and train with others.",
         "url": "/services/group-training",
