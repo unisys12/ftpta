@@ -1,0 +1,34 @@
+[
+    {
+        "bath": {
+            "actions": [
+                "bath",
+                "blow dry",
+                "toe nails",
+                "glads"
+            ],
+            "prices": [
+                {
+                    "size": "small",
+                    "price": "$30.00"
+                },
+                {
+                    "size": "medium",
+                    "price": "$40.00"
+                },
+                {
+                    "size": "large",
+                    "price": "$50.00"
+                },
+                {
+                    "size": "extra large",
+                    "price": "$60.00"
+                },
+                {
+                    "size": "giant",
+                    "price": "$70.00"
+                }
+            ]
+        }
+    }
+]
