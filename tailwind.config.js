@@ -19,10 +19,10 @@ module.exports = {
               },
             },
             h2: {
-              color: "#4F46E5",
+              color: "#e2e8f0",
             },
             h3: {
-              color: "#A5B4FC",
+              color: "#f1f5f9",
             },
             blockquote: {
               color: "#fafafa",
