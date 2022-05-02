@@ -18,10 +18,10 @@
         "price": "$3000"
     },
     {
-        "header": "Advanced Obediance Program",
-        "details": "Training geared toward more advanced Public Access training.",
-        "url": "",
-        "price": "$3200.00"
+        "header": "Day Care",
+        "details": "Day care for you puppy",
+        "url": "/services/day-care",
+        "price": "$15 a day"
     },
     {
         "header": "Day Training",
