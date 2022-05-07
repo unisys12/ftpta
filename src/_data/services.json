@@ -24,6 +24,12 @@
         "price": "$15 a day"
     },
     {
+        "header": "Overnight Boarding",
+        "details": "Overnight Boarding for you puppy",
+        "url": "/services/boarding",
+        "price": "$20 a night"
+    },
+    {
         "header": "Day Training",
         "details": "Think of it as daycare, but revoled around training",
         "url": "/services/day-training",
