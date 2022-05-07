@@ -15,7 +15,7 @@ So your puppy has had a solid start on their road to being a great companion, bu
 >
 > {{ price }}
 
-The {{ title }} Program fits all of these scenario's and more. Just like our [Puppy Program](/services/puppy-program "Puppy Program") - your puppy will live with us, in our home, for a period of 4 weeks. You will be _required_ to come for at one 1 hour training session each week. Two of those sessions will at a local store in town. During these sessions, we will be covering Public Access training and more advanced obedience skills that you and your puppy will need to master if you both want to be your very best in public. Be it a pet friendly store or a hectic backyard birthday party or family gathering. All these skills play a role in you being sure that your pet is comfortable, safe and well behaved as much as possible.
+The {{ title }} Program fits all of these scenario's and more. Just like our [Puppy Level One](/services/puppy-level-1-program "Puppy Level One Program") - your puppy will live with us, in our home, for a period of 4 weeks. You will be _required_ to come for at one 1 hour training session each week. Two of those sessions will at a local store in town. During these sessions, we will be covering Public Access training and more advanced obedience skills that you and your puppy will need to master if you both want to be your very best in public. Be it a pet friendly store or a hectic backyard birthday party or family gathering. All these skills play a role in you being sure that your pet is comfortable, safe and well behaved as much as possible.
 
 ## Skills
 - All the basic skills from the Puppy Level 1 are covered and refined if needed.
