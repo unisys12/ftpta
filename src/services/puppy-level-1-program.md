@@ -47,4 +47,6 @@ Your puppy is _very_ vulnerable during this early stage of their development. Wi
 
 {{ page_title }} {{ price }}
 
+{% include "components/lending_component.html" %}
+
 {% include "components/privacy.html" %}
