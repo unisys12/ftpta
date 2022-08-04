@@ -3,6 +3,12 @@ layout: "layout.njk"
 title: FTPTA
 page_title: For the Puppies Training Academy
 ---
+<div class="py-20 px-20">     
+    <div class="grid grid-rows-auto lg:grid-cols-3 gap-4">
+        {% include "components/feature_content.njk" %}    
+    </div>
+</div>
+
 {% for card in cards %}
 <div class="mx-auto mb-4 bg-white rounded-md overflow-hidden">
     <div class="md:flex ">

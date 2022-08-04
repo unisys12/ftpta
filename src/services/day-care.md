@@ -7,7 +7,7 @@ page_title: 'Day Care Services'
 price: '$15.00 a day'
 ---
 
-For The Puppies {{ title }} is all about giving owners a safe and friendly place for their puppies to hang out during the day. There will be no formal training performed, but they will be socialized with our Board Training, Day Training puppies, and Clients. In the past, we have offered this service only to our previous clients and it has been a big success. So we wanted to expand this service to the general public on scheduled basis. We will have limited availability for this service, so please contact us to schedule your puppies stay.
+For The Puppies {{ title }} is all about giving owners a safe and friendly place for their puppies to hang out during the day. There will be no formal training performed, but they will be socialized with our Board Training, Day Training puppies, and Clients. In the past, we have offered this service only to our previous clients and it has been a big success. So we wanted to expand this service to the general public on a scheduled basis. We will have limited availability for this service, so please contact us to schedule your puppies stay.
 
 ## Drop-Off & Pick-Up
 - Drop off: 7:30 AM.
