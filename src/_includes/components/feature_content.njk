@@ -10,10 +10,12 @@
 <div class="bg-white mr-5 p-2 rounded">
     <img src="{{ card.img_url }}" alt="{{ card.img_alt_text }}" class="mb-4">
     <div class="p-5">
-        <a href="{{ card.link }}" class="text-2xl">{{ card.header }}</a>
-        {# <span class="text-2xl font-bold text-green-800">{{ card.card_header }}</span> #}
+        {# <a href="{{ card.link }}" class="text-2xl">{{ card.header }}</a> #}
+        <span class="text-2xl font-bold text-green-800">{{ card.card_header }}</span>
         <p class="bg-white text-sm text-black">{{ card.card_desc }}</p>
-        {# <a href="" class="inline-block rounded py-2 px-3 mt-4 text-white bg-green-500 ">Read More</a> #}
+        <button class="my-4">
+            <a href="{{ card.link }}" class="text-white py-2 px-4 rounded transition-colors ease-in-out bg-blue-500 hover:bg-blue-700 duration-300">Read More</a>
+        </button>
     </div>
 </div>
 {% endfor %}
