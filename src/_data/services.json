@@ -25,7 +25,7 @@
     },
     {
         "header": "Overnight Boarding",
-        "details": "Overnight Boarding for you puppy",
+        "details": "Overnight Boarding for your puppy",
         "url": "/services/boarding",
         "price": "$20 a night"
     },
@@ -37,7 +37,7 @@
     },
     {
         "header": "Group Training Classes",
-        "details": "6 1 hour classes where you come to our home and train with others.",
+        "details": "6 one hour classes where you come to our home and train with others.",
         "url": "/services/group-training",
         "price": "$180.00 for 6 classes"
     },
