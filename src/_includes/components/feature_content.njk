@@ -1,20 +1,13 @@
-{% for card in featured %}
-{# <div class="bg-white p-2 rounded">
-    <img src="{{ card.img_url }}" alt="{{ card.img_alt_text }}" class="">
-    <div class="p-10">
-        <h1 class="text-2xl font-bold py-2">{{ card.card_header }}</h1>
-        <p class="bg-white text-sm">{{ card.card_desc }}</p>
-        <a href="{{ card.link }}" class="py-2 mt-8 px-6 bg-green-500 inline-block rounded">Read More</a>
-    </div>
-</div> #}
-<div class="bg-white mr-5 p-2 rounded">
-    <img src="{{ card.img_url }}" alt="{{ card.img_alt_text }}" class="mb-4">
-    <div class="p-5">
-        {# <a href="{{ card.link }}" class="text-2xl">{{ card.header }}</a> #}
-        <span class="text-2xl font-bold text-green-800">{{ card.card_header }}</span>
-        <p class="bg-white text-sm text-black">{{ card.card_desc }}</p>
-        <button class="my-4">
-            <a href="{{ card.link }}" class="text-white py-2 px-4 rounded transition-colors ease-in-out bg-blue-500 hover:bg-blue-700 duration-300">Read More</a>
+{% for feature in featured %}
+<div class="bg-white mr-5 rounded grid grid-rows-2">
+    <figure class="mb-4">
+        <img src="{{ feature.img_url }}" alt="{{ feature.img_alt_text }}" class="content-fill">
+    </figure>
+    <div class="grid grid-flow-row p-5">
+        <h3 class="text-2xl font-bold text-green-800">{{ feature.card_header }}</h3>
+        <p class="bg-white text-sm text-black">{{ feature.card_desc }}</p>
+        <button class="">
+            <a href="{{ feature.link }}" class="text-white py-2 px-4 rounded transition-colors ease-in-out bg-blue-500 hover:bg-blue-700 duration-300">Read More</a>
         </button>
     </div>
 </div>
