@@ -1,11 +1,5 @@
 module.exports = {
-  content: [
-    "./src/_includes/*.njk",
-    "./src/_includes/components/*.*",
-    "./src/services/*.html",
-    "./src/blog/*.njk",
-    "./src/*.njk",
-  ],
+  content: ["./_site/**/*.{html,js}"],
   theme: {
     extend: {
       typography: {
