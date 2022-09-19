@@ -36,12 +36,6 @@
         "price": "$65.00 a day"
     },
     {
-        "header": "Group Training Classes",
-        "details": "6 one hour classes where you come to our home and train with others.",
-        "url": "/services/group-training",
-        "price": "$180.00 for 6 classes"
-    },
-    {
         "header": "Volunteer Therapy Visit",
         "details": "Would your organization like to have Pretzel and myself come visit your facility for a therapy visit? If so, please make an appointment.",
         "url": "/services/therapy-visit",
