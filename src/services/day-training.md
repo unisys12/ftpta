@@ -4,7 +4,6 @@ title: 'Day Training'
 description: 'Day Training'
 tags: 'services'
 page_title: 'Day Training'
-price: '$65.00 a day'
 ---
 
 Day training is where you drop your puppy off in the morning and pick them up that afternoon. During there stay here, we perform a training session with them as well work on any other issues that they might have living in the home. We have secretly offered and performed day training services for all previous clients of our Board Training Programs. Given that, this service is geared more to the _maintenance_ of your puppies training, but over the years we have refined our teaching methods in a way that would allow a puppy that has no training to benefit greatly from this service. 
@@ -22,7 +21,5 @@ Some of the benefits to this program:
 - Earliest drop-off time is 7:30 AM.
 - Latest pickup time is 5:30 PM.
 - Be prepared for a quick training session each time you pick up your puppy. We will cover/discuss new commands and the progress of your puppy during this time. Plus we get to share all the funny moments your puppy experiences throughout their day.
-
-### {{ price }}
 
 {% include "components/privacy.html" %}

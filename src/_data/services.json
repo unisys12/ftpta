@@ -2,43 +2,36 @@
     {
         "header": "Evaluation",
         "details": "Evaluate the dog and owners to customize a training plan based on the needs of the dog and owner",
-        "url": "/services/evaluation",
-        "price": "starting @ $60.00"
+        "url": "/services/evaluation"
     },
     {
         "header": "Puppy Level 1",
         "details": "The Puppy Level 1 Program is geared towards puppies between the ages of 8 - 16 weeks (2 - 4 months) of age. The 4 week programs gives your puppy the head start they deserve.",
-        "url": "/services/puppy-level-1-program",
-        "price": "$2000"
+        "url": "/services/puppy-level-1-program"
     },
     {
         "header": "Puppy Level 2",
         "details": "The Puppy Level 2 Program is geared towards puppies over 4 months of age. We introduce more advanced behavior skills as well as basic public access training.",
-        "url": "/services/puppy-level-2-program",
-        "price": "$3000"
+        "url": "/services/puppy-level-2-program"
     },
     {
         "header": "Day Care",
         "details": "Day care for you puppy",
-        "url": "/services/day-care",
-        "price": "$15 a day"
+        "url": "/services/day-care"
     },
     {
         "header": "Overnight Boarding",
         "details": "Overnight Boarding for your puppy",
-        "url": "/services/boarding",
-        "price": "$20 a night"
+        "url": "/services/boarding"
     },
     {
         "header": "Day Training",
         "details": "Think of it as daycare, but revoled around training",
-        "url": "/services/day-training",
-        "price": "$65.00 a day"
+        "url": "/services/day-training"
     },
     {
         "header": "Volunteer Therapy Visit",
         "details": "Would your organization like to have Pretzel and myself come visit your facility for a therapy visit? If so, please make an appointment.",
-        "url": "/services/therapy-visit",
-        "price": "FREE"
+        "url": "/services/therapy-visit"
     }
 ]
