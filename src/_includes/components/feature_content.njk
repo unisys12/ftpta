@@ -1,11 +1,11 @@
 {% for feature in featured %}
 <div class="bg-white rounded grid grid-rows-2 not-prose">
-    <figure class="mb-4">
+    <figure class="mx-auto">
         <img src="{{ feature.img_url }}" alt="{{ feature.img_alt_text }}" class="content-cover">
     </figure>
-    <div class="grid px-4">
-        <h3 class="text-2xl font-bold text-green-800">{{ feature.card_header }}</h3>
-        <p class="text-black sm:text-sm lg:text-sm">{{ feature.card_desc }}</p>
+    <div class="grid justify-items-center px-4">
+        <h3 class="text-2xl font-bold text-green-900">{{ feature.card_header }}</h3>
+        <p class="text-black text-center sm:text-sm lg:text-sm">{{ feature.card_desc }}</p>
         <button class="">
             <a href="{{ feature.link }}" class="text-white py-2 px-4 rounded transition-colors ease-in-out bg-blue-500 hover:bg-blue-700 duration-300">Read More</a>
         </button>
