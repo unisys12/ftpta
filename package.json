@@ -1,6 +1,6 @@
 {
   "name": "ftpta",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "site and future blog for FTPTA",
   "main": "index.html",
   "node": ">=16.0.0",
