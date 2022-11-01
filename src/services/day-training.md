@@ -6,12 +6,14 @@ tags: 'services'
 page_title: 'Day Training'
 ---
 
-Day training is where you drop your puppy off in the morning and pick them up that afternoon. During there stay here, we perform a training session with them as well work on any other issues that they might have living in the home. We have secretly offered and performed day training services for all previous clients of our Board Training Programs. Given that, this service is geared more to the _maintenance_ of your puppies training, but over the years we have refined our teaching methods in a way that would allow a puppy that has no training to benefit greatly from this service. 
+Day training is where you drop your puppy off in the morning and pick them up that afternoon. During there stay here, we perform a training session with them as well work on any other issues that they might have living in the home. We have secretly offered and performed day training services for all previous clients of our Board Training Programs. Given that, this service is geared more to the _maintenance_ of your puppies training.
 
 Some of the benefits to this program:
 - If your puppy has one or two bad habits that your family has not been able to break.
 - If your puppy has had training, but needs a little work on a few points or needs to be taking to the next level.
-- If you need help with house breaking or getting a jump start on your puppies training.
+
+
+> This program requires that your puppy be house broken. For house breaking issues, we must refer you to our [Frustrated to Fabulous](/services/frustrated)] board and train package!
 
 {% include "components/service_requirements.md" %}
 

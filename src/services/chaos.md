@@ -6,7 +6,7 @@ tags: 'services'
 page_title: 'Chaos to Calm'
 ---
 
-![Chaos to Calm Header Image](https://res.cloudinary.com/ftpta-com/image/upload/v1667315491/Millie/20221013_crop_co13xv.jpg)
+![Chaos to Calm Header Image](https://res.cloudinary.com/ftpta-com/image/upload/f_auto,q_auto/v1667315491/Millie/20221013_crop_co13xv.jpg)
 
 This program helps busy families with new four-legged companions maintain or regain peace in their homes by
 1.	Establishing your essential needs for your dog’s success together.
@@ -19,3 +19,5 @@ So that you and your family can have a well-mannered and behaved companion insid
 -	6 Private lessons
 -	Text and email communication.
 -	Shopping list customized for your companion
+
+{% include "components/service_requirements.md" %}

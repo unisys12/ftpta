@@ -5,7 +5,7 @@ description: 'Frustrated to Fabulous'
 tags: 'services'
 page_title: 'Frustrated to Fabulous'
 ---
-![Training in the Yard](https://res.cloudinary.com/ftpta-com/image/upload/v1667322860/training/20220930_finn_jack_crystal_ewgzde.jpg "Training in the Yard!")
+![Training in the Yard](https://res.cloudinary.com/ftpta-com/image/upload/f_auto,q_auto/v1667322860/training/20220930_finn_jack_crystal_ewgzde.jpg "Training in the Yard!")
 This program helps busy families with new four-legged companions maintain or regain peace in their homes by:
 1.	Establishing your essential needs for your dog’s success together.
 2.	Demonstrating appropriate interactions with your dog with the whole family.
@@ -19,5 +19,7 @@ This program includes:
 -	Public Access Training
 -	An appropriate leash, collar, harness, and a treat package tailored for your companion.  Complete with 1-2 age-appropriate toys.
 -	Text and email communication.
+
+{% include "components/service_requirements.md" %}
 
 
