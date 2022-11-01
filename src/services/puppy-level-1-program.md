@@ -42,5 +42,3 @@ It's vital that we maintain the bond between you and your puppy. It's also impor
 Your puppy is _very_ vulnerable during this early stage of their development. With that in mind, we take every precaution necessary to protect your puppy. Including the list of requirements above. Since they are most likely not _fully vaccinated_ during at least part of their time here, we will not walk your puppy on the road or allow them to touch the ground outside of our yard. During the third week, we will take your puppy to town with us, but will carry it every where it goes. We want it to get as much early socialization as safely possible. If we feel that we cannot do this safely, we will notify you and we will work together to come up with a new plan of action to socialize your puppy.
 
 {% include "components/lending_component.html" %}
-
-{% include "components/privacy.html" %}

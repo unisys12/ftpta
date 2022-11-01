@@ -28,4 +28,3 @@ The {{ title }} Program fits all of these scenario's and more. Just like our [Pu
 
 {% include "components/lending_component.html" %}
 
-{% include "components/privacy.html" %}

@@ -21,5 +21,3 @@ Some of the benefits to this program:
 - Earliest drop-off time is 7:30 AM.
 - Latest pickup time is 5:30 PM.
 - Be prepared for a quick training session each time you pick up your puppy. We will cover/discuss new commands and the progress of your puppy during this time. Plus we get to share all the funny moments your puppy experiences throughout their day.
-
-{% include "components/privacy.html" %}

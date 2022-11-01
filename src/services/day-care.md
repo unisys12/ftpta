@@ -15,5 +15,3 @@ For The Puppies {{ title }} is all about giving owners a safe and friendly place
 > If pickup will have to be after 5:30 PM, we ask that you give us a notice before hand. A $10 per hour surcharge will be added for each hour past 5:30PM billed in 1 hour increments.
 
 {% include "components/service_requirements.md" %}
-
-{% include "components/privacy.html" %}
