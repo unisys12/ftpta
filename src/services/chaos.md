@@ -21,3 +21,7 @@ So that you and your family can have a well-mannered and behaved companion insid
 -	Shopping list customized for your companion
 
 {% include "components/service_requirements.md" %}
+
+> Schedule a free Discovery Call with us so that we can discuss your families
+> unique situation in more detail.
+{% include "components/discovery_call.html" %}

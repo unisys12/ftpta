@@ -22,4 +22,8 @@ This program includes:
 
 {% include "components/service_requirements.md" %}
 
+{% include "components/discovery_call.html" %}
 
+> Schedule a free Discovery Call with us so that we can discuss your families
+> unique situation in more detail.
+{% include "components/discovery_call.html" %}
