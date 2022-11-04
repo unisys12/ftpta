@@ -6,7 +6,7 @@ tags: 'services'
 page_title: 'Day Care Services'
 ---
 
-![Daycare Header Image](https://res.cloudinary.com/ftpta-com/image/upload/f_auto,q_auto/v1667326826/training/20221031_123531_edit_z6jlgs.jpg)
+![Daycare Header Image](https://res.cloudinary.com/ftpta-com/image/upload/f_auto,q_auto/v1667315532/Millie/20221013_130122_u1qjbp.jpg)
 
 For The Puppies {{ title }} is all about giving owners a safe and friendly place for their puppies to hang out during the day. There will be no formal training performed, but they will be socialized with our Board Training, Day Training puppies, and Clients. In the past, we have offered this service only to our previous clients and it has been a big success. So we wanted to expand this service to the general public on a scheduled basis. We will have limited availability for this service, so please contact us to schedule your puppies stay.
 
