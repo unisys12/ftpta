@@ -1,8 +1,12 @@
 module.exports = (config) => {
-  config.addPassthroughCopy("src/css/style.css");
   config.addPassthroughCopy("src/imgs");
   config.addPassthroughCopy("src/js");
   config.addPassthroughCopy("src/robots.txt");
+
+  config.setServerOptions({
+    watch: ["./src/**/**/*.njk", "./src/**/**/*.html"],
+  });
+
   return {
     dir: {
       input: "src",
