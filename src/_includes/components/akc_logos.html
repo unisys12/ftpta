@@ -1,10 +1,20 @@
-<div class="flex flex-wrap justify-center px-4 py-8 md:justify-between">
-  {% for logo in akc_logos %}
-  <figure class="">
-    <a href={{ logo.info_url }}>
-      <img src={{ logo.img_url }} alt="{{ logo.img_alt_text }}" class="rounded-full" />
-    </a>
-    <figcaption class="text-center">{{ logo.name }}</figcaption>
-  </figure>
-  {% endfor %}
+<div class="mx-auto max-w-2xl">
+  <div class="grid grid-cols-1 gap-y-16 gap-x-8 place-items-center text-center sm:grid-cols-4">
+    <figure class="mx-auto">
+      <a
+        href="https://aax-us-east.amazon-adsystem.com/x/c/RD0mjc--codNOONecVx_fugAAAGGvhwiQgEAAAFKAQBhcHNfdHhuX2JpZDEgICBOL0EgICAgICAgICAgICDKiBKO/https://www.amazon.com/pets?ref-refURL=http%3A%2F%2Flocalhost%3A8080%2F&slotNum=0&imprToken=c21889014dac02b29b08d8ce5985ac71&tag=ftpta-20&linkCode=w20">
+        <img
+          src="https://images-na.ssl-images-amazon.com/images/G/01/img19/pets/Associates/DogHoliday_120x240._CB1573510003_.jpg"
+          alt="Amazon Associates Image">
+      </a>
+    </figure>
+    {% for logo in akc_logos %}
+    <figure class="mx-auto">
+      <a href={{ logo.info_url }}>
+        <img src={{ logo.img_url }} alt="{{ logo.img_alt_text }}" class="rounded-full" />
+      </a>
+      <figcaption class="text-center">{{ logo.name }}</figcaption>
+    </figure>
+    {% endfor %}
+  </div>
 </div>
