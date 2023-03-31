@@ -15,7 +15,7 @@ This program helps busy families with new four-legged companions maintain or reg
 
 So that you and your family can have a well-mannered and behaved companion inside the home. This program includes:
 -	12 Day Training Days
--	Must be used over 4 weeks 
+-	Must be used over 6 weeks 
 -	6 Private lessons
 -	Text and email communication.
 -	Shopping list customized for your companion
