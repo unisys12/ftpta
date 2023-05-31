@@ -14,7 +14,7 @@ This program helps busy families with new four-legged companions maintain or reg
 3.	Teach you and your dog how to navigate social interactions in the home when guest arrive.
 
 So that you and your family can have a well-mannered and behaved companion inside the home. This program includes:
--	12 Day Training Days
+-	12 Day Training Days, with homework sheets
 -	Must be used over 6 weeks 
 -	6 Private lessons
 -	Text and email communication.
