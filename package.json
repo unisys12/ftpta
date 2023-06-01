@@ -9,6 +9,7 @@
     "dev": "run-p dev:*",
     "dev:compile-css": "postcss src/css/tailwind.css -o _site/css/style.css --watch",
     "dev:compile-11ty": "npx @11ty/eleventy --serve",
+    "build": "postcss src/css/tailwind.css -o _site/css/style.css && npx @11ty/eleventy",
     "debug-windows": "set DEBUG=Eleventy* & npx @11ty/eleventy",
     "debug-linux": "DEBUG=Eleventy* npx @11ty/eleventy"
   },
