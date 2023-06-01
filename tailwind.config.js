@@ -1,5 +1,12 @@
 module.exports = {
-  content: ["./src/**/**/*.{html,md,njk,js}"],
+  content: [
+    "./src/*.{html,md,njk,js}", // project root
+    "./src/blog/*.{html,md,njk,js}", // blog dir
+    "./src/services/*.{html,md,njk,js}", // services dir
+    "./src/_includes/*.{html,md,njk,js}", // main includes dir
+    "./src/_includes/components/*.{html,md,njk,js}", // components dir
+    "./src/_includes/components/policies/*.{html,md,njk,js}", // policies dir
+  ],
   theme: {
     extend: {
       typography: {
