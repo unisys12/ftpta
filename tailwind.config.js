@@ -33,5 +33,9 @@ module.exports = {
       },
     },
   },
-  plugins: [require("@tailwindcss/forms"), require("@tailwindcss/typography")],
+  plugins: [
+    require("@tailwindcss/forms")({
+      strategy: "base", // only generate global styles
+    }), 
+  require("@tailwindcss/typography")],
 };
