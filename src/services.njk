@@ -5,18 +5,14 @@ page_title: Services Provide by FTPTA
 tag: "services"
 ---
 
-<div class="grid grid-cols-1 gap-4 p-4 text-gray-900 justify-center md:grid-cols-2 lg:grid-cols-3">
+<div class="grid grid-cols-1 gap-4 p-4 text-gray-900 justify-center lg:grid-cols-3">
 {% for service in services %}
-    <section class="bg-gray-200 p-2 rounded-md flex-none">      
-        <div class="card-header">
-        {% if service.url %}
-            <a href="{{ service.url }}"><h3 class="text-xl font-bold">{{ service.header }}</h3></a>
-            {# <p class="font-semibold">{{ service.price }}</p> #}
-        {% else %}
-            <h3 class="text-xl font-bold">{{ service.header }}</h3>
-            <p class="font-semibold">{{ service.price }}</p>
-        {% endif %}
-        </div>
+    <section class="bg-gray-200 p-2 rounded-md flex-none border-4 border-indigo-500/50 hover:border-indigo-500/100 transition duration-300 ease-in-out">      
+        <header class="text-center">
+            <a href="{{ service.url }}">
+                <h3 class="text-2xl font-bold pb-4">{{ service.header }}</h3>
+            </a>
+        </header>
         <article class="card-content">
             <p>{{ service.details }}</p>
         </article>
