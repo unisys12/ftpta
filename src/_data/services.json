@@ -13,9 +13,9 @@
         "is_signature": true
     },
     {
-        "header": "Volunteer Therapy Visit",
-        "details": "Would your organization like to have Pretzel and myself come visit your facility for a therapy visit? If so, please make an appointment.",
-        "url": "/services/therapy-visit",
+        "header": "Service Dog Coaching",
+        "details": "This service allows me to work with people that have active service dogs that require a new task be trained or perform refresher training.",
+        "url": "/services/service-dogs",
         "is_signature": false
     }
 ]
