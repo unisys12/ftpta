@@ -13,18 +13,6 @@
         "is_signature": true
     },
     {
-        "header": "Day Care",
-        "details": "Day care for you puppy",
-        "url": "/services/day-care",
-        "is_signature": false
-    },
-    {
-        "header": "Boarding",
-        "details": "Overnight Boarding for your puppy",
-        "url": "/services/boarding",
-        "is_signature": false
-    },
-    {
         "header": "Volunteer Therapy Visit",
         "details": "Would your organization like to have Pretzel and myself come visit your facility for a therapy visit? If so, please make an appointment.",
         "url": "/services/therapy-visit",
