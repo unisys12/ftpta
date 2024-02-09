@@ -6,5 +6,10 @@ tags: 'services'
 <article class="mx-auto px-4 pb-4 prose prose-sm sm:prose lg:prose-lg xl:prose-xl">
 {{ content | safe }}
 {% include './components/lending_component.html' %}
+<blockquote>
+    Schedule a free Discovery Call with us so that we can discuss your families unique situation in more detail.
+    {% include "components/discovery_call.html" %}
+</blockquote> 
 {% include 'policies.njk' %}
+{% include "components/service_requirements.md" %}
 </article>

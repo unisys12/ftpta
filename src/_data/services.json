@@ -2,20 +2,17 @@
     {
         "header": "Frustrated to Fabulous",
         "details": "So that you and your family can bring along a social well-mannered companion that lights up any room you walk into.",
-        "url": "/services/frustrated",
-        "is_signature": true
+        "url": "/services/frustrated"
     },
     {
         "header": "Chaos to Calm",
         "details": "This program helps busy families with new four-legged companions maintain or regain peace in their homes.",
         "url": "/services/chaos",
-        "header_img": "https://res.cloudinary.com/ftpta-com/image/upload/v1667315491/Millie/20221013_crop_co13xv.jpg",
-        "is_signature": true
+        "header_img": "https://res.cloudinary.com/ftpta-com/image/upload/v1667315491/Millie/20221013_crop_co13xv.jpg"
     },
     {
-        "header": "Service Dog Coaching",
-        "details": "This service allows me to work with people that have active service dogs that require a new task be trained or perform refresher training.",
-        "url": "/services/service-dogs",
-        "is_signature": false
+        "header": "Private Lessons",
+        "details": "This service allows us to work privately with just you and your dog. A very affordable option to get you where you want to go with your dog. Great option of you have a busy schedule!",
+        "url": "/services/private-lessons"
     }
 ]

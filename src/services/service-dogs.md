@@ -59,9 +59,3 @@ are not permitted.
 
 > If you are interested in our Service Dog Coaching, after reading and understanding the above 
 > requirements, please take a moment and fill out our [intake form](/sdc-intake) so that we can gather some initial information on you and your needs. 
-
-{% include "components/service_requirements.md" %}
-
-> Schedule a free Discovery Call with us so that we can discuss your families
-> unique situation in more detail.
-{% include "components/discovery_call.html" %}

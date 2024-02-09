@@ -25,9 +25,3 @@ This program includes:
 -	A shopping list of items tailored for your companion.
 -   A clicker for training new cues
 -	Text and email communication.
-
-{% include "components/service_requirements.md" %}
-
-> Schedule a free Discovery Call with us so that we can discuss your families
-> unique situation in more detail.
-{% include "components/discovery_call.html" %}
