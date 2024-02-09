@@ -6,6 +6,7 @@ tags: 'services'
 page_title: 'Private Lessons'
 ---
 
+!['Private Lessons Header Image'](https://res.cloudinary.com/ftpta-com/image/upload/v1707510008/20231006_134742_nifbl3.jpg)
 Privates lessons are an afforable way to set you and your dog up to succeed in everyday life in your home. Be it basic obiedience, task training or you have a new puppy and looking for some solid information and guidence. Each session is booked in one hour intervals at <ins>$125</ins> an hour and can be booked to fit your schedule. We do have a 7PM cut-off for Private Lessons. That cut-off could be earlier depending on where you live.
 
 Some of the topics we can cover in Private Lessons are:
