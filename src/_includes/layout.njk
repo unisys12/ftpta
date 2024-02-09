@@ -22,5 +22,9 @@
     </main>
     
     {% include "footer.njk" %}
+
+    {% if page.url == '/sdc-intake/' %}
+    <script src="/js/sdcIntake.js"></script>
+    {% endif %}
 </body>
 </html>
