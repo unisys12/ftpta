@@ -6,7 +6,7 @@ tags: 'services'
 page_title: 'Service Dog Coaching'
 ---
 
-Service dogs are defined in the [Americans with Disabilities Act](https://www.ada.gov/resources/service-animals-2010-requirements/, "Service Dog Resource") and are dogs that are specifically trained to 
+Service dogs are defined in the [Americans with Disabilities Act](https://www.ada.gov/resources/service-animals-2010-requirements/ "Service Dog Resource") and are dogs that are specifically trained to 
 help people with disabilities. For example, service dogs can be trained to help people who have PTSD, mobility 
 impairments, are deaf or hard of hearing, have diabetes or many other conditions. We can help people with 
 disabilities train their own dog to assist them as a service dog.
@@ -14,7 +14,10 @@ disabilities train their own dog to assist them as a service dog.
 ## Our Process
 <span class="text-slate-100 font-bold"><ins>Step 1</ins></span>
 
-We begin with our [intake form](/sdc-intake) and a 60 minute virtual appointment. If you are not able to complete this form due to a disability _(I've taken all possible steps to make it A11y compliant)_, please feel free to schedule a [Discovery Call](https://pocketsuite.io/book/for-the-puppies?service=discovery-call) with us. This is when we will answer your questions, gather information about your dog and your needs, give you important information about service dog training as well as training recommendations to get started. <ins class="font-medium">_FEE $75_</ins>
+We begin with our [intake form](/sdc-intake) and a 60 minute virtual appointment. This is when we will answer your questions, gather information about your dog and your needs, give you important information about service dog training as well as training recommendations to get started. 
+Submiting the Intake Form is free, of course, but Virtual Appointments start at <ins class="font-medium">_FEE $75 hr_</ins>
+
+<span class="text-sm">If you are not able to complete this form due to a disability _(I've taken all possible steps to make it A11y compliant)_, please feel free to schedule a [Discovery Call](https://pocketsuite.io/book/for-the-puppies?service=discovery-call) with us.</span>
 
 <hr>
 <span class="text-slate-100 font-bold"><ins>Step 2</ins></span>
