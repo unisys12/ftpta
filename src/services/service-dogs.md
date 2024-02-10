@@ -32,7 +32,7 @@ We conduct an 90 minute in-home evaluation of your dog. This is when we look at 
 Training for service work, if your dog is suitable. This process usually takes 1 – 2 years but can take longer. Process includes a mixture of virtual and in person training appointments, group classes, day training, private training and board and train if needed to get them started. Hourly Rate and/or Package Rates apply.
 - Virtual Sessions are <ins class="font-medium">_FEE $75 hr_</ins>
 - Private and In-Person training is <ins class="font-medium">_FEE $125 hr_</ins>.
-- Day Training Packages start at <ins class="font-medium">_$1500 over 12 weeks_</ins>.
+- Day Training Packages start at <ins class="font-medium">_$1500 over 6 weeks_</ins>.
 - Board and Train Packages start at <ins class="font-medium">_$3000 a month_</ins>.
 
 <hr>
