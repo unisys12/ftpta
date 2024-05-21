@@ -7,24 +7,3 @@ title: FTPTA
         {% include "components/feature_content.njk" %}    
     </div>
 </div>
-
-{% for card in cards %}
-<div class="mx-auto mb-4 bg-white rounded-md overflow-hidden">
-    <div class="md:flex ">
-        <div class="">
-            <figure class="p-4">
-                <img class="rounded-sm" src={{ card.img_src }} width="800px" loading="lazy" alt="{{ card.img_alt }}"/>
-                <figcaption class="text-gray-700 text-sm">Image by <a href="https://www.facebook.com/profile.php?id=1832176344">OnLocation</a></figcaption>
-            </figure>
-        </div>
-        <div class="text-gray-900 px-4 sm:px-0 sm:pt-4">
-            <h2 class="text-4xl font-medium">{{ card.canine_name }} - 
-                {% for title in card.titles %}
-                <span class="font-thin text-3xl" title="{{ title.name }}">{{ title.abv }}, </span>
-                {% endfor %}
-            </h2>
-            <p class="">Rescue to Therapy Canine</p>
-        </div>
-    </div>
-</div>
-{% endfor %}
