@@ -1,3 +1,5 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   content: [
     "./src/*.{html,md,njk,js}", // project root
@@ -31,11 +33,15 @@ module.exports = {
           },
         },
       },
+      fontFamily: {
+        sans: ["AtkinsonRegular", ...defaultTheme.fontFamily.sans],
+      },
     },
   },
   plugins: [
     require("@tailwindcss/forms")({
       strategy: "base", // only generate global styles
-    }), 
-  require("@tailwindcss/typography")],
+    }),
+    require("@tailwindcss/typography"),
+  ],
 };

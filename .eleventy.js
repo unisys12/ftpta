@@ -1,6 +1,7 @@
 module.exports = (config) => {
   config.addPassthroughCopy("src/imgs");
   config.addPassthroughCopy("src/js");
+  config.addPassthroughCopy("src/fonts");
   config.addPassthroughCopy("src/robots.txt");
 
   config.setServerOptions({
