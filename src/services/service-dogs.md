@@ -19,8 +19,6 @@ disabilities train their own dog to assist them as a service dog.
 We begin with our **[intake form](/sdc-intake)** and a 60 minute virtual appointment. This is when we will answer your questions, gather information about your dog and your needs, give you important information about service dog training as well as training recommendations to get started.
 Submitting the Intake Form is free, of course, but Virtual Appointments start at <ins class="font-medium">FEE $75 hr</ins>
 
-<span class="text-sm">If you are not able to complete this form due to a disability _(I've taken all possible steps to make it A11y compliant)_, please feel free to schedule a [Discovery Call](https://pocketsuite.io/book/for-the-puppies?service=discovery-call) with us.</span>
-
 <hr>
 <span class="text-slate-100 font-bold"><ins>Step 2</ins></span>
 
