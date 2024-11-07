@@ -4,75 +4,76 @@ title: 'Service Dog Intake Form'
 description: 'This allows us to gather basic info to get started with service dog coaching'
 tags: 'services, intake form'
 page_title: 'Service Dog Intake Form'
+page_description: "We begin with our Intake Form and a 60 minute virtual appointment. This is when we will answer your questions, gather information about your dog and your needs, give you important information about service dog training as well as training recommendations to get started."
 ---
 
 <h2 class="text-center">Service Dog Coaching Intake Form</h2>
 <form name="{{ page_title }}" class="text-black-500" id="form" method="post" netlify>
     <fieldset class="grid grid-cols-1 space-y-2">
         <legend class="text-slate-300 text-2xl font-medium">Personal Info</legend>
-        
+
         <label for="clientName" class="block">Name</label>
         <input type="text" id="clientName" class="block text-black font-medium invalid:border-red-500" name="clientName" id="clientName" required aria-required autocomplete="name">
-        
+
         <label for="clientAddress" class="block">Address</label>
         <input type="text" id="clientAddress" class="block text-black font-medium invalid:border-red-500" name="clientAddress" id="clientAddress" required aria-required autocomplete="address-line1">
 
         <label for="clientEmail" class="block">Email</label>
         <input type="email" id="clientEmail" class="text-black font-medium invalid:border-red-500" name="clientEmail" required aria-required autocomplete="email">
-        
+
         <label for="clientPhoneNumber" class="block">Phone Number</label>
         <input type="tel" id="clientPhoneNumber" class="text-black font-medium invalid:border-red-500" name="clientPhoneNumber" required aria-required autocomplete="cc-number">
     </fieldset>
 
     <fieldset class="my-8">
         <legend class="text-slate-300 text-2xl font-medium">Do you currently own a dog that you would like to have trained or refreshing?</legend>
-            <label for="yes" class="">Yes</label>
-            <input type="radio" name="dog" id="yes" class="mr-2" >
-        
-            <label for="no" class="">No</label>
-            <input type="radio" name="dog" id="no" >
+        <label for="yes" class="">Yes</label>
+        <input type="radio" name="dog" id="yes" class="mr-2">
+
+        <label for="no" class="">No</label>
+        <input type="radio" name="dog" id="no">
     </fieldset>
-            
+
     <fieldset id="dogInfo" class="grid grid-cols-1 space-y-2">
         <legend class="text-slate-300 text-2xl font-medium">Dog Information</legend>
-    
+
         <label for="dogName" class="block">Dog's Name</label>
-        <input type="text" id="dogName" class="text-black font-medium" name="dogName" >
-        
+        <input type="text" id="dogName" class="text-black font-medium" name="dogName">
+
         <label for="dogAge" class="block">Dog's Age</label>
-        <input type="text" id="dogAge" class="text-black font-medium" name="dogAge" >
-        
+        <input type="text" id="dogAge" class="text-black font-medium" name="dogAge">
+
         <label for="dogGender" class="block">Dog's Gender</label>
-        <input type="text" id="dogGender" class="text-black font-medium" name="dogGender" >
-        
+        <input type="text" id="dogGender" class="text-black font-medium" name="dogGender">
+
         <label for="dogBreed" class="block">Dog's Breed</label>
-        <input type="text" id="dogBreed" class="text-black font-medium" name="dogBreed" >
+        <input type="text" id="dogBreed" class="text-black font-medium" name="dogBreed">
 
         <label for="dogQuestion1" class="block">How long have you had the dog?</label>
-        <input type="text" id="dogQuestion1" class="text-black font-medium" name="dogQuestion1" >
+        <input type="text" id="dogQuestion1" class="text-black font-medium" name="dogQuestion1">
 
         <label for="dogQuestion2" class="block">Where did you get this dog?</label>
-        <input type="text" id="dogQuestion2" class="text-black font-medium" name="dogQuestion2" >
+        <input type="text" id="dogQuestion2" class="text-black font-medium" name="dogQuestion2">
 
         <label for="dogQuestion3" class="block">What are your training goals for your dog?</label>
-        <textarea id="dogQuestion3" class="text-black font-medium" name="dogQuestion3" ></textarea>
+        <textarea id="dogQuestion3" class="text-black font-medium" name="dogQuestion3"></textarea>
 
         <label for="dogQuestion4" class="block">Has your dog ever growled at, snapped at, nipped or bitten a person? Please explain.</label>
-        <textarea id="dogQuestion4" class="text-black font-medium" name="dogQuestion4" ></textarea>
+        <textarea id="dogQuestion4" class="text-black font-medium" name="dogQuestion4"></textarea>
 
         <label for="dogQuestion5" class="block">Has your dog ever injured, fought or shown other aggressive behavior towards animals? Please explain.</label>
-        <textarea id="dogQuestion5" class="text-black font-medium" name="dogQuestion5" ></textarea>
+        <textarea id="dogQuestion5" class="text-black font-medium" name="dogQuestion5"></textarea>
 
         <label for="dogQuestion6" class="block">Is your dog shy or uncomfortable in new environments or when meeting new people? Please explain.</label>
-        <textarea id="dogQuestion6" class="text-black font-medium" name="dogQuestion6" ></textarea>
+        <textarea id="dogQuestion6" class="text-black font-medium" name="dogQuestion6"></textarea>
 
         <label for="dogQuestion7" class="block">Are there any children in your home? What are their ages?</label>
-        <textarea id="dogQuestion7" class="text-black font-medium" name="dogQuestion7" ></textarea>
+        <textarea id="dogQuestion7" class="text-black font-medium" name="dogQuestion7"></textarea>
 
         <label for="dogQuestion8" class="block">Does the dog have any health issues or physical limitations? Food allergies?</label>
-        <textarea id="dogQuestion8" class="text-black font-medium" name="dogQuestion8" ></textarea>
-        
+        <textarea id="dogQuestion8" class="text-black font-medium" name="dogQuestion8"></textarea>
+
     </fieldset>
-    
+
     <button type="submit" class="mt-8 py-2 px-4 bg-slate-500 hover:bg-slate-600 rounded-md focus:ring-2 ring-zinc-50 transition">Submit</button>
 </form>
