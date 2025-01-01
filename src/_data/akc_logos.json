@@ -1,20 +1,20 @@
 [
-    {
-        "name": "AKC S.T.A.R. Puppy",
-        "info_url": "https://www.akc.org/products-services/training-programs/canine-good-citizen/akc-star-puppy/",
-        "img_url": "https://res.cloudinary.com/ftpta-com/image/upload/f_auto,q_70,w_200/v1592436484/logos/AKC/StarPuppy_logo_xzp7pj.jpg",
-        "img_alt_text": "Link to AKC S.T.A.R. Puppy Info"
-    },
-    {
-        "name": "AKC Canine Good Citizen",
-        "info_url": "https://www.akc.org/products-services/training-programs/canine-good-citizen/",
-        "img_url": "https://res.cloudinary.com/ftpta-com/image/upload/f_auto,q_70,w_200/v1592436476/logos/AKC/CGC-logo_ctdw58.png",
-        "img_alt_text": "Link to AKC Canine Good Citizen Info"
-    },
-    {
-        "name": "APDT Member",
-        "info_url": "https://apdt.com/",
-        "img_url": "https://res.cloudinary.com/ftpta-com/image/upload/f_auto,q_70,w_200/v1597377718/logos/APDT_logo_unzieg.jpg",
-        "img_alt_text": "Link to The Assocation of Professional Dog Trainers"
-    }
+  {
+    "name": "AKC S.T.A.R. Puppy",
+    "info_url": "https://www.akc.org/products-services/training-programs/canine-good-citizen/akc-star-puppy/",
+    "img_url": "https://res.cloudinary.com/ftpta-com/image/upload/f_auto,q_70,w_200/v1592436484/logos/AKC/StarPuppy_logo_xzp7pj.webp",
+    "img_alt_text": "Link to AKC S.T.A.R. Puppy Info"
+  },
+  {
+    "name": "AKC Canine Good Citizen",
+    "info_url": "https://www.akc.org/products-services/training-programs/canine-good-citizen/",
+    "img_url": "https://res.cloudinary.com/ftpta-com/image/upload/f_auto,q_70,w_200/v1592436476/logos/AKC/CGC-logo_ctdw58.webp",
+    "img_alt_text": "Link to AKC Canine Good Citizen Info"
+  },
+  {
+    "name": "APDT Member",
+    "info_url": "https://apdt.com/",
+    "img_url": "https://res.cloudinary.com/ftpta-com/image/upload/f_auto,q_70,w_200/v1597377718/logos/APDT_logo_unzieg.webp",
+    "img_alt_text": "Link to The Assocation of Professional Dog Trainers"
+  }
 ]
