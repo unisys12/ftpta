@@ -4,20 +4,20 @@
     "img_alt_text": "day training image",
     "card_header": "Day Training",
     "card_desc": "6 week course, 2 days a week. Allowing you to keep your dog with you and get the training you both desire.",
-    "link": "/services/chaos"
+    "link": "/services/chaos/"
   },
   {
     "img_url": "https://res.cloudinary.com/ftpta-com/image/upload/f_auto,q_auto,c_scale,w_400,h_270/v1588853750/Chase/20200427_104218_nrl7iy.webp",
     "img_alt_text": "feature image",
     "card_header": "Board Training",
     "card_desc": "So that you and your family can bring along a social well-mannered companion that lights up any room you walk into.",
-    "link": "/services/frustrated"
+    "link": "/services/frustrated/"
   },
   {
     "img_url": "https://res.cloudinary.com/ftpta-com/image/upload/f_auto,q_auto,c_scale,w_400,h_270/v1659990098/Maggie/20220806_143104_qev2pk.webp",
     "img_alt_text": "private lesson image",
     "card_header": "Private Lessons",
     "card_desc": "We come to you or meet you in town. Work one on one with you and your dog to help you reach your goals.",
-    "link": "/services/private-lessons"
+    "link": "/services/private-lessons/"
   }
 ]
