@@ -4,8 +4,9 @@ tags: 'services'
 ---
 
 <article class="mx-auto px-4 pb-4 prose prose-sm sm:prose lg:prose-lg xl:prose-xl">
-{{ content | safe }}
-{% include './components/lending_component.html' %}
-{% include 'policies.njk' %}
-{% include "components/service_requirements.md" %}
+    {{ content | safe }}
+    {% include './components/lending_component.html' %}
+    {% include './components/class_form.html' %}
+    {% include 'policies.njk' %}
+    {% include "components/service_requirements.md" %}
 </article>
