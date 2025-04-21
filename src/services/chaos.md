@@ -12,7 +12,7 @@ page_description: "This program helps busy families with new four-legged compani
 This program helps busy families with new four-legged companions maintain or regain peace in their homes by
 
 1. Establishing your essential needs for your dog’s success together.
-2. Demonstrating appropriate interactions with your dog with the whole family.
+2. Demonstrating appropriate interactions between your dog and the family..
 3. Teach you and your dog how to navigate social interactions in the home when guest arrive.
 
 So that you and your family can have a well-mannered and behaved companion inside the home. This program includes:

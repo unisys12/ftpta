@@ -17,7 +17,7 @@ Some of the topics we can cover in Private Lessons are:
 - <span class="text-slate-100 font-semibold">Puppy Training</span>: Teaching sit, stay, come, down, leave it, and other basic commands to establish good communication and foundation.
 - <span class="text-slate-100 font-semibold">Leash Walking</span>: Helping dogs walk calmly and politely on a leash without pulling or lunging.
 - <span class="text-slate-100 font-semibold">Recall</span>: Ensuring dogs reliably come back when called, even in distractions.
-- <span class="text-slate-100 font-semibold">Greeting Manners</span>: Preventing jumping on people, excessive barking, or other unwanted behaviors when meeting new people or dogs.
+- <span class="text-slate-100 font-semibold">Greeting Manners</span>: Prevent jumping on people, excessive barking, or other unwanted behaviors when meeting new people or dogs.
 
 <span class="text-slate-100 font-bold">Behavioral Issues:</span>
 

@@ -24,8 +24,6 @@ This program includes:
 
 - 4-week Board Train
 - 6 Private lessons
-- Client Resource Portal
-- Public Access Training
-- A shopping list of items tailored for your companion.
+- Basic Public Access Training in pet friendly stores.
 - A clicker for training new cues
 - Text and email communication.
